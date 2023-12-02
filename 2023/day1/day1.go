@@ -1,11 +1,11 @@
 package day1
 
 import (
-	"fmt"
 	"strconv"
+	"strings"
 )
 
-func sumOfAllTheCalibrationValues(lines []string) int {
+func sumOfAllTheCalibrationValues_part1(lines []string) int {
 	sum := 0
 	for _, line := range lines {
 		nums := ""
@@ -27,6 +27,72 @@ func sumOfAllTheCalibrationValues(lines []string) int {
 		sum += val
 	}
 
-	fmt.Printf("Outout: %d\n", sum)
+	return sum
+}
+
+func sumOfAllTheCalibrationValues_part2(lines []string) int {
+	sum := 0
+	nums := []string{
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine",
+	}
+
+	for _, line := range lines {
+
+		num1 := ""
+		num2 := ""
+
+		for i := 0; i < len(line); i++ {
+			ch := line[i]
+			if num1 == "" && ch >= '0' && ch <= '9' {
+				num1 = string(ch)
+				break
+			}
+			if num1 == "" {
+				for j := 0; j < len(nums); j++ {
+					if strings.HasPrefix(line[i:], nums[j]) {
+						num1 = string('0' + byte(j) + 1)
+						break
+					}
+				}
+			}
+		}
+
+		for i := len(line) - 1; i >= 0; i-- {
+			ch := line[i]
+			if num2 == "" && ch >= '0' && ch <= '9' {
+				num2 = string(ch)
+				break
+			}
+			if num2 == "" {
+				for j := 0; j < len(nums); j++ {
+					//fmt.Printf("LINE: %s\n", line[:i])
+					if strings.HasSuffix(line[:i+1], nums[j]) {
+						num2 = string('0' + byte(j) + 1)
+						break
+					}
+				}
+			}
+		}
+
+		//fmt.Printf("Line: %s, %s %s\n", line, num1, num2)
+
+		if num1 != "" && num2 != "" {
+			number := num1 + num2
+			val, err := strconv.Atoi(number)
+			if err != nil {
+				panic(err)
+			}
+			sum += val
+		}
+	}
+
 	return sum
 }
