@@ -73,7 +73,6 @@ func sumOfAllTheCalibrationValues_part2(lines []string) int {
 			}
 			if num2 == "" {
 				for j := 0; j < len(nums); j++ {
-					//fmt.Printf("LINE: %s\n", line[:i])
 					if strings.HasSuffix(line[:i+1], nums[j]) {
 						num2 = string('0' + byte(j) + 1)
 						break
@@ -81,8 +80,6 @@ func sumOfAllTheCalibrationValues_part2(lines []string) int {
 				}
 			}
 		}
-
-		//fmt.Printf("Line: %s, %s %s\n", line, num1, num2)
 
 		if num1 != "" && num2 != "" {
 			number := num1 + num2
