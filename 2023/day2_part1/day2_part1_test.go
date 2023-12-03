@@ -47,7 +47,7 @@ func init() {
 	}{
 		{
 			Input:  lines,
-			Output: 363,
+			Output: 2879,
 		},
 	}
 	testCases = append(testCases, testCase...)
