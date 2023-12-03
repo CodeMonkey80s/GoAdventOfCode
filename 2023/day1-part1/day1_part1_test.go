@@ -1,4 +1,4 @@
-package day1part1
+package day1_part1
 
 import (
 	"bufio"
@@ -24,7 +24,7 @@ var testCases = []struct {
 }
 
 func init() {
-	f, err := os.Open("../inputs/day1-input.txt")
+	f, err := os.Open("../inputs/day1_input.txt")
 	if err != nil {
 		log.Fatalf("Error: %s", err)
 	}
