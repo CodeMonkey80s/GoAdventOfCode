@@ -13,10 +13,7 @@ func sumOfAllOfThePartNumbers(schematic []string) int {
 	}
 
 	isSymbol := func(ch string) bool {
-		if strings.ContainsAny(ch, "#$%&*+-/=@") {
-			return true
-		}
-		return false
+		return strings.ContainsAny(ch, "#$%&*+-/=@")
 	}
 
 	symbols := make(map[string]int)

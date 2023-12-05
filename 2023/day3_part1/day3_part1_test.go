@@ -1,12 +1,10 @@
 package day3_part1
 
 import (
-	"bufio"
 	"fmt"
-	"log"
-	"os"
-	"strings"
 	"testing"
+
+	"GoAdventOfCode/2023/util"
 )
 
 var testCases = []struct {
@@ -31,25 +29,7 @@ var testCases = []struct {
 }
 
 func init() {
-	f, err := os.Open("../inputs/day3_input.txt")
-	if err != nil {
-		log.Fatalf("Error: %s", err)
-	}
-	defer func(f *os.File) {
-		err := f.Close()
-		if err != nil {
-			panic(err)
-		}
-	}(f)
-	scanner := bufio.NewScanner(f)
-	scanner.Split(bufio.ScanLines)
-	var lines []string
-	for scanner.Scan() {
-		text := strings.TrimSpace(scanner.Text())
-		if text != "" {
-			lines = append(lines, text)
-		}
-	}
+	lines := util.LoadInputFile("../inputs/day3_input.txt")
 	testCase := []struct {
 		Input  []string
 		Output int
