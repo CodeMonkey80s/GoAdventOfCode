@@ -16,6 +16,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 4    | [Day 2: Cube Conundrum, Part 2](2023/day2_part2/day2_part2.go)                                                                        |⭐      |
 | 5    | [Day 3: Gear Ratios, Part 1](2023/day3_part1/day3_part1.go)                                                                           |⭐      |
 | 6    | [Day 3: Gear Ratios, Part 2](2023/day3_part2/day3_part2.go)                                                                           |⭐      |
+| 7    | [Day 4: Scratchcards, Part 1](2023/day4_part1/day4_part1.go)                                                                           |⭐      |
 
 # Static Analysis
 
