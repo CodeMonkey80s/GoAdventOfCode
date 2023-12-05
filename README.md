@@ -1,7 +1,7 @@
 # Go Advent Of Code Solutions
 
 <p align="center">
-    <a href="https://github.com/CodeMonkey80s/GoAdventOfCode"><img src="gopher-advent.png" width="500"/></a>
+    <a href="https://github.com/CodeMonkey80s/GoAdventOfCode"><img src="gopher-advent.png" width="300"/></a>
 </p>
 
 Repository with my solutions to **Advent Of Code** problems.
