@@ -77,7 +77,7 @@ func sumOfAllOfTheGearRatios(schematic []string) int {
 						}
 						value2, ok := parts[pos]
 						if ok {
-							sum += (value * value2)
+							sum += value * value2
 						} else {
 							parts[pos] = value
 						}
