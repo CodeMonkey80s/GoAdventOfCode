@@ -21,6 +21,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 9    | [Day 5: If You Give A Seed A Fertilizer, Part 1](2023/day5_part1/day5_part1.go)                                                                           |⭐      |
 | 10   | [Day 5: If You Give A Seed A Fertilizer, Part 2](2023/day5_part2/day5_part2.go)                                                                           |⭐      |
 | 11   | [Day 6: Wait For It, Part 1](2023/day6_part1/day6_part1.go)                                                                           |⭐      |
+| 12   | [Day 6: Wait For It, Part 2](2023/day6_part2/day6_part2.go)                                                                           |⭐      |
 
 # Static Analysis
 
