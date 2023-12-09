@@ -1,6 +1,8 @@
 package util
 
-import "strconv"
+import (
+	"strconv"
+)
 
 func ConvertStringToInt(s string) int {
 	val, err := strconv.Atoi(s)

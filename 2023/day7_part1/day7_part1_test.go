@@ -49,3 +49,81 @@ func Test_totalWinnings(t *testing.T) {
 		})
 	}
 }
+
+func Test_getCardsRank(t *testing.T) {
+	testCasesForCardRanks := []struct {
+		Input  string
+		Output int
+	}{
+		{
+			Input:  "11345",
+			Output: cardRankOnePair,
+		},
+		{
+			Input:  "32T3K",
+			Output: cardRankOnePair,
+		},
+		{
+			Input:  "KK677",
+			Output: cardRankTwoPair,
+		},
+		{
+			Input:  "34341",
+			Output: cardRankTwoPair,
+		},
+		{
+			Input:  "3Q373",
+			Output: cardRankThreeOfAKind,
+		},
+		{
+			Input:  "34447",
+			Output: cardRankThreeOfAKind,
+		},
+		{
+			Input:  "A3383",
+			Output: cardRankThreeOfAKind,
+		},
+		{
+			Input:  "ATA3A",
+			Output: cardRankThreeOfAKind,
+		},
+		{
+			Input:  "3QQQ3",
+			Output: cardRankFullHouse,
+		},
+		{
+			Input:  "3Q3Q3",
+			Output: cardRankFullHouse,
+		},
+		{
+			Input:  "44444",
+			Output: cardRankFiveOfAKind,
+		},
+		{
+			Input:  "QQQQ2",
+			Output: cardRankFourOfAKind,
+		},
+		{
+			Input:  "34444",
+			Output: cardRankFourOfAKind,
+		},
+		{
+			Input:  "K2687",
+			Output: cardRankHighCard,
+		},
+		{
+			Input:  "12345",
+			Output: cardRankHighCard,
+		},
+	}
+	var label string
+	for _, tc := range testCasesForCardRanks {
+		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
+		t.Run(label, func(t *testing.T) {
+			output := getCardsRank(tc.Input)
+			if output != tc.Output {
+				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
+			}
+		})
+	}
+}

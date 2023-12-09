@@ -1,4 +1,4 @@
-package day7_part1
+package day7_part2
 
 import (
 	"sort"
@@ -7,20 +7,22 @@ import (
 	"GoAdventOfCode/2023/util"
 )
 
+const Joker = 'J'
+
 var cardToValue = map[byte]int{
-	'A': 14,
-	'K': 13,
-	'Q': 12,
-	'J': 11,
-	'T': 10,
-	'9': 9,
-	'8': 8,
-	'7': 7,
-	'6': 6,
-	'5': 5,
-	'4': 4,
-	'3': 3,
-	'2': 2,
+	'A':   13,
+	'K':   12,
+	'Q':   11,
+	'T':   10,
+	'9':   9,
+	'8':   8,
+	'7':   7,
+	'6':   6,
+	'5':   5,
+	'4':   4,
+	'3':   3,
+	'2':   2,
+	Joker: 1,
 }
 
 const (
@@ -45,10 +47,16 @@ func totalWinnings(listOfHands []string) int {
 		parts := strings.Fields(hand)
 		cards := parts[0]
 		bid := util.ConvertStringToInt(parts[1])
+		rank := 0
+		if strings.ContainsRune(cards, Joker) {
+			rank = getCardsRankWithJoker(cards)
+		} else {
+			rank = getCardsRank(cards)
+		}
 		h := Hand{
 			Cards: cards,
 			Bid:   bid,
-			Rank:  getCardsRank(cards),
+			Rank:  rank,
 		}
 		hands = append(hands, h)
 	}
@@ -108,4 +116,67 @@ func getCardsRank(cards string) int {
 	}
 
 	return cardRankFullHouse
+}
+
+func getCardsRankWithJoker(cards string) int {
+	m := make(map[rune]int)
+	for _, char := range cards {
+		m[char] += 1
+	}
+	maxElements := 0
+	twoPairs := 0
+	for _, v := range m {
+		maxElements = max(maxElements, v)
+		if v == 2 {
+			twoPairs++
+		}
+	}
+	if m[Joker] == 5 {
+		return cardRankFiveOfAKind
+	}
+	if m[Joker] == 4 {
+		return cardRankFiveOfAKind
+	}
+	if m[Joker] == 3 {
+		if len(m) == 2 {
+			return cardRankFiveOfAKind
+		}
+		return cardRankFourOfAKind
+	}
+	if m[Joker] == 2 {
+		if len(m) == 4 && maxElements == 2 {
+			return cardRankThreeOfAKind
+		}
+		if len(m) == 4 {
+			return cardRankTwoPair
+		}
+		if len(m) == 3 && maxElements == 2 {
+			return cardRankFourOfAKind
+		}
+		if len(m) == 3 && maxElements == 1 {
+			return cardRankFullHouse
+		}
+		return cardRankFiveOfAKind
+	}
+	if m[Joker] == 1 {
+		//fmt.Printf("CARD: %s, len: %d, max: %d\n", cards, len(m), maxElements)
+		if len(m) == 4 && maxElements == 2 {
+			return cardRankThreeOfAKind
+		}
+		if len(m) == 2 && maxElements == 4 {
+			return cardRankFiveOfAKind
+		}
+		if len(m) == 3 && maxElements == 2 && twoPairs == 2 {
+			return cardRankFullHouse
+		}
+		if len(m) == 3 && maxElements == 2 {
+			return cardRankThreeOfAKind
+		}
+		if len(m) == 3 && maxElements == 3 {
+			return cardRankFourOfAKind
+		}
+
+	}
+
+	return cardRankOnePair
 }
