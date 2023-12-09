@@ -1,13 +1,11 @@
 package day6_part2
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
 
 func getTheNumber(lines []string) int {
-	sum := 0
 
 	timeRaw := strings.TrimPrefix(lines[0], "Time:")
 	timeRaw = strings.Replace(timeRaw, " ", "", -1)
@@ -37,9 +35,7 @@ func getTheNumber(lines []string) int {
 		a++
 		b--
 	}
-	sum = 1 + d2 - d1
-	fmt.Printf("d1: %v, d2: %v, sum: %v\n", d1, d2, sum)
-	return sum
+	return 1 + d2 - d1
 }
 
 func convertStringToInt(s string) int {
