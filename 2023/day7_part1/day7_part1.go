@@ -2,24 +2,25 @@ package day7_part1
 
 import (
 	"slices"
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/2023/util"
 )
 
-var cardsToValue = map[string]int{
-	"A": 14,
-	"K": 13,
-	"Q": 12,
-	"J": 11,
-	"T": 10,
-	"9": 9,
-	"8": 8,
-	"7": 7,
-	"6": 6,
-	"5": 5,
-	"4": 4,
-	"3": 3,
-	"2": 2,
+var cardsToValue = map[byte]int{
+	'A': 14,
+	'K': 13,
+	'Q': 12,
+	'J': 11,
+	'T': 10,
+	'9': 9,
+	'8': 8,
+	'7': 7,
+	'6': 6,
+	'5': 5,
+	'4': 4,
+	'3': 3,
+	'2': 2,
 }
 
 const (
@@ -41,7 +42,7 @@ func totalWinnings(listOfHands []string) int {
 		parts := strings.Fields(hand)
 		cards := parts[0]
 		bid := parts[1]
-		cardsToBid[cards] = convertStringToInt(bid)
+		cardsToBid[cards] = util.ConvertStringToInt(bid)
 		listOfCards = append(listOfCards, cards)
 	}
 
@@ -51,7 +52,7 @@ func totalWinnings(listOfHands []string) int {
 		if va == vb {
 			for i := 0; i < 5; i++ {
 				if a[i] != b[i] {
-					if cardsToValue[string(a[i])] < cardsToValue[string(b[i])] {
+					if cardsToValue[a[i]] < cardsToValue[b[i]] {
 						return -1
 					} else {
 						return 1
@@ -77,9 +78,9 @@ func totalWinnings(listOfHands []string) int {
 }
 
 func getCardsRank(cards string) int {
-	m := make(map[string]int)
-	for _, ch := range cards {
-		m[string(ch)]++
+	m := make(map[rune]int)
+	for _, char := range cards {
+		m[char]++
 	}
 	if len(m) == 1 {
 		return FiveOfAKind
@@ -103,12 +104,4 @@ func getCardsRank(cards string) int {
 	}
 
 	return FullHouse
-}
-
-func convertStringToInt(s string) int {
-	val, err := strconv.Atoi(s)
-	if err != nil {
-		return 0
-	}
-	return val
 }

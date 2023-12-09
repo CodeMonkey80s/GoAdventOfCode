@@ -1,8 +1,9 @@
 package day6_part1
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/2023/util"
 )
 
 func getTheNumber(lines []string) int {
@@ -12,14 +13,14 @@ func getTheNumber(lines []string) int {
 	lineTimes := strings.TrimPrefix(lines[0], "Time:")
 	timesRaw := strings.Fields(lineTimes)
 	for _, num := range timesRaw {
-		times = append(times, convertStringToInt(num))
+		times = append(times, util.ConvertStringToInt(num))
 	}
 
 	distances := make([]int, 0)
 	lineDistances := strings.TrimPrefix(lines[1], "Distance:")
 	distancesRaw := strings.Fields(lineDistances)
 	for _, num := range distancesRaw {
-		distances = append(distances, convertStringToInt(num))
+		distances = append(distances, util.ConvertStringToInt(num))
 	}
 
 	for n := range times {
@@ -43,12 +44,4 @@ func countDistance(t1 int, t2 int) int {
 		d += v
 	}
 	return d
-}
-
-func convertStringToInt(s string) int {
-	val, err := strconv.Atoi(s)
-	if err != nil {
-		return 0
-	}
-	return val
 }

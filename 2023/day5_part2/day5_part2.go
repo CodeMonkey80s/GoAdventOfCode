@@ -1,19 +1,20 @@
 package day5_part2
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/2023/util"
 )
 
 const (
-	scanUnknown               = iota
-	scanSeedToSoil            = iota + 1
-	scanSoilToFertilizer      = iota + 1
-	scanFertilizerToWater     = iota + 1
-	scanWaterToLight          = iota + 1
-	scanLightToTemperature    = iota + 1
-	scanTemperatureToHumidity = iota + 1
-	scanHumidityToLocation    = iota + 1
+	_ = iota
+	scanSeedToSoil
+	scanSoilToFertilizer
+	scanFertilizerToWater
+	scanWaterToLight
+	scanLightToTemperature
+	scanTemperatureToHumidity
+	scanHumidityToLocation
 )
 
 type Mapping struct {
@@ -24,7 +25,7 @@ type Mapping struct {
 
 func lowestLocationNumber(lines []string) int {
 
-	scannerFlag := scanUnknown
+	scannerFlag := 0
 
 	seeds := make([]int, 0)
 	seedToSoil := make([]Mapping, 0)
@@ -40,13 +41,13 @@ loop:
 		switch {
 		case strings.HasPrefix(line, "seeds: "):
 			ids := strings.Fields(line[7:])
-			valmin := convertStringToInt(ids[0])
-			valmax := convertStringToInt(ids[1])
+			valmin := util.ConvertStringToInt(ids[0])
+			valmax := util.ConvertStringToInt(ids[1])
 			for i := valmin; i < valmin+valmax; i++ {
 				seeds = append(seeds, i)
 			}
-			valmin = convertStringToInt(ids[2])
-			valmax = convertStringToInt(ids[3])
+			valmin = util.ConvertStringToInt(ids[2])
+			valmax = util.ConvertStringToInt(ids[3])
 			for i := valmin; i < valmin+valmax; i++ {
 				seeds = append(seeds, i)
 			}
@@ -123,17 +124,9 @@ func corresponds(n int, mapping []Mapping) int {
 func fillMapping(line string, sl []Mapping) []Mapping {
 	ids := strings.Fields(line)
 	item := Mapping{
-		DstRangeStart: convertStringToInt(ids[0]),
-		SrcRangeStart: convertStringToInt(ids[1]),
-		RangeLength:   convertStringToInt(ids[2]),
+		DstRangeStart: util.ConvertStringToInt(ids[0]),
+		SrcRangeStart: util.ConvertStringToInt(ids[1]),
+		RangeLength:   util.ConvertStringToInt(ids[2]),
 	}
 	return append(sl, item)
-}
-
-func convertStringToInt(s string) int {
-	val, err := strconv.Atoi(s)
-	if err != nil {
-		return 0
-	}
-	return val
 }

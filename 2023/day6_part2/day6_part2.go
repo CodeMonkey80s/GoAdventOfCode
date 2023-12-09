@@ -1,19 +1,20 @@
 package day6_part2
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/2023/util"
 )
 
 func getTheNumber(lines []string) int {
 
 	timeRaw := strings.TrimPrefix(lines[0], "Time:")
 	timeRaw = strings.Replace(timeRaw, " ", "", -1)
-	time := convertStringToInt(timeRaw)
+	time := util.ConvertStringToInt(timeRaw)
 
 	distanceRaw := strings.TrimPrefix(lines[1], "Distance:")
 	distanceRaw = strings.Replace(distanceRaw, " ", "", -1)
-	distance := convertStringToInt(distanceRaw)
+	distance := util.ConvertStringToInt(distanceRaw)
 
 	a := 0
 	b := time
@@ -36,12 +37,4 @@ func getTheNumber(lines []string) int {
 		b--
 	}
 	return 1 + d2 - d1
-}
-
-func convertStringToInt(s string) int {
-	val, err := strconv.Atoi(s)
-	if err != nil {
-		return 0
-	}
-	return val
 }
