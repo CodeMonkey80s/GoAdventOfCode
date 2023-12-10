@@ -38,9 +38,8 @@ func init() {
 }
 
 func Test_sumOfThePowerOfSets(t *testing.T) {
-	var label string
 	for _, tc := range testCases {
-		label = fmt.Sprintf("Case: Input: %v Output: %v\n", len(tc.Input), tc.Output)
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", len(tc.Input), tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := sumOfThePowerOfSets(tc.Input)
 			if output != tc.Output {

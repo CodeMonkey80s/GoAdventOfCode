@@ -40,9 +40,8 @@ func init() {
 }
 
 func Test_totalWinnings(t *testing.T) {
-	var label string
 	for _, tc := range testCases {
-		label = fmt.Sprintf("Case: Input: %v Output: %v\n", len(tc.Input), tc.Output)
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", len(tc.Input), tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := totalWinnings(tc.Input)
 			if output != tc.Output {
@@ -122,9 +121,8 @@ func Test_getCardsRank(t *testing.T) {
 			Output: cardRankHighCard,
 		},
 	}
-	var label string
 	for _, tc := range testCasesForCardRanks {
-		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := getCardsRank(tc.Input)
 			if output != tc.Output {
@@ -248,9 +246,8 @@ func Test_getCardsRankWithJoker(t *testing.T) {
 			Output: cardRankFullHouse,
 		},
 	}
-	var label string
 	for _, tc := range testCasesForCardRanks {
-		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := getCardsRankWithJoker(tc.Input)
 			if output != tc.Output {
@@ -315,9 +312,8 @@ func Test_sortHands(t *testing.T) {
 			},
 		},
 	}
-	var label string
 	for _, tc := range testCasesForSortingHands {
-		label = fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
 			output := sortHands(tc.Input)
 			if !reflect.DeepEqual(output, tc.Output) {
