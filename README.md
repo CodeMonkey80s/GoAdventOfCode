@@ -26,6 +26,13 @@ Repository with my solutions to **Advent Of Code** problems.
 | 14   | [Day 7: Camel Cards, Part 2](2023/day7_part2/day7_part2.go)                                                                           |⭐      |
 | 15   | [Day 8: Haunted Wasteland, Part 1](2023/day8_part1/day8_part1.go)                                                                           |⭐      |
 
+# Solutions // 2022
+
+| #    | Title                                                                                                                                 | Stars  |
+|:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| 1    | [Day 1: Calorie Counting, Part 1](2022/day1_part1/day1_part1.go)                                                                           |⭐      |
+
+
 # Static Analysis
 
 Run `golangci-lint` command. There is a hidden configuration file for this tool inside root directory `.golangci.yml`.

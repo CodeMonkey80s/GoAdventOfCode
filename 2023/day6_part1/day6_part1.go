@@ -3,7 +3,7 @@ package day6_part1
 import (
 	"strings"
 
-	"GoAdventOfCode/2023/util"
+	"GoAdventOfCode/util"
 )
 
 func getTheNumber(lines []string) int {

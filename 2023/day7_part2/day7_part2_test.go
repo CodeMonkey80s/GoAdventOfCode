@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"GoAdventOfCode/2023/util"
+	util2 "GoAdventOfCode/util"
 )
 
 var testCases = []struct {
@@ -26,7 +26,7 @@ var testCases = []struct {
 }
 
 func init() {
-	lines := util.LoadInputFile("../inputs/day7_input.txt")
+	lines := util2.LoadInputFile("../inputs/day7_input.txt")
 	testCase := []struct {
 		Input  []string
 		Output int
@@ -262,7 +262,7 @@ func Test_sortHands(t *testing.T) {
 	for _, line := range testCases[0].Input {
 		parts := strings.Fields(line)
 		cards := parts[0]
-		bid := util.ConvertStringToInt(parts[1])
+		bid := util2.ConvertStringToInt(parts[1])
 		rank := 0
 		if strings.ContainsRune(cards, Joker) {
 			rank = getCardsRankWithJoker(cards)

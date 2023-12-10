@@ -23,9 +23,7 @@ func LoadInputFile(s string) []string {
 	lines := make([]string, 0)
 	for scanner.Scan() {
 		text := strings.TrimSpace(scanner.Text())
-		if text != "" {
-			lines = append(lines, text)
-		}
+		lines = append(lines, text)
 	}
 	return lines
 }

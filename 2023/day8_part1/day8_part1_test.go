@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"GoAdventOfCode/2023/util"
+	"GoAdventOfCode/util"
 )
 
 var testCases = []struct {
@@ -14,6 +14,7 @@ var testCases = []struct {
 	{
 		Input: []string{
 			"RL",
+			"",
 			"AAA = (BBB, CCC)",
 			"BBB = (DDD, EEE)",
 			"CCC = (ZZZ, GGG)",

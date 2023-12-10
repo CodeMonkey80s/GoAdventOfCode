@@ -3,7 +3,7 @@ package day5_part2
 import (
 	"strings"
 
-	"GoAdventOfCode/2023/util"
+	"GoAdventOfCode/util"
 )
 
 const (
@@ -38,6 +38,9 @@ func lowestLocationNumber(lines []string) int {
 
 loop:
 	for _, line := range lines {
+		if line == "" {
+			continue
+		}
 		switch {
 		case strings.HasPrefix(line, "seeds: "):
 			ids := strings.Fields(line[7:])

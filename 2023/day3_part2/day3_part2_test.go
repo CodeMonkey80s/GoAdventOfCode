@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"GoAdventOfCode/2023/util"
+	"GoAdventOfCode/util"
 )
 
 var testCases = []struct {

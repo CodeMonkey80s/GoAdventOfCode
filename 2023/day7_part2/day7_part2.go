@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"GoAdventOfCode/2023/util"
+	"GoAdventOfCode/util"
 )
 
 const Joker = 'J'

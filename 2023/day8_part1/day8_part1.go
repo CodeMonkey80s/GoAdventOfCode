@@ -18,7 +18,7 @@ func howManySteps(lines []string) int {
 
 	steps := lines[0]
 	nodes := make(map[string]MapNode)
-	for _, line := range lines[1:] {
+	for _, line := range lines[2:] {
 		id := line[0:3]
 		left := line[7:10]
 		right := line[12:15]
