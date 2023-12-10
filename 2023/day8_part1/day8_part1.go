@@ -6,6 +6,11 @@ type Node struct {
 	Right string
 }
 
+const (
+	nodeStartName = "AAA"
+	nodeEndName   = "ZZZ"
+)
+
 func howManySteps(lines []string) int {
 
 	steps := lines[0]
@@ -23,14 +28,10 @@ func howManySteps(lines []string) int {
 	}
 
 	numberOfSteps := 0
-	node := "AAA"
+	node := nodeStartName
 	next := ""
-	loops := 1
 outer:
 	for {
-		if loops == 1 {
-			next = ""
-		}
 		for _, dir := range steps {
 			switch dir {
 			case 'L':
@@ -39,12 +40,11 @@ outer:
 				next = nodes[node].Right
 			}
 			numberOfSteps++
-			if next == "ZZZ" {
+			if next == nodeEndName {
 				break outer
 			}
 			node = next
 		}
-		loops++
 	}
 
 	return numberOfSteps
