@@ -24,6 +24,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 12   | [Day 6: Wait For It, Part 2](2023/day6_part2/day6_part2.go)                                                                           |⭐      |
 | 13   | [Day 7: Camel Cards, Part 1](2023/day7_part1/day7_part1.go)                                                                           |⭐      |
 | 14   | [Day 7: Camel Cards, Part 2](2023/day7_part2/day7_part2.go)                                                                           |⭐      |
+| 15   | [Day 8: Haunted Wasteland, Part 1](2023/day8_part1/day8_part1.go)                                                                           |⭐      |
 
 # Static Analysis
 
