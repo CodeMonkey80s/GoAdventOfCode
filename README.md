@@ -31,7 +31,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: Calorie Counting, Part 1](2022/day1_part1/day1_part1.go)                                                                           |⭐      |
-| 2    | [Day 1: Calorie Counting, Part ll(2022/day1_part2/day1_part2.go)                                                                           |⭐      |
+| 2    | [Day 1: Calorie Counting, Part 1](2022/day1_part2/day1_part2.go)                                                                           |⭐      |
 
 
 # Static Analysis
