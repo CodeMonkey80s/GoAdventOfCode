@@ -32,6 +32,7 @@ Repository with my solutions to **Advent Of Code** problems.
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: Calorie Counting, Part 1](2022/day1_part1/day1_part1.go)                                                                           |⭐      |
 | 2    | [Day 1: Calorie Counting, Part 2](2022/day1_part2/day1_part2.go)                                                                           |⭐      |
+| 3    | [Day 2: Rock Paper Scissors, Part 1](2022/day2_part1/day2_part1.go)                                                                           |⭐      |
 
 
 # Static Analysis
