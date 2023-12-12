@@ -1,131 +1,73 @@
 package day5_part1
 
 import (
-	"fmt"
+	"slices"
 	"strings"
 
 	"GoAdventOfCode/util"
 )
 
-const (
-	_ = iota
-	scanSeedToSoil
-	scanSoilToFertilizer
-	scanFertilizerToWater
-	scanWaterToLight
-	scanLightToTemperature
-	scanTemperatureToHumidity
-	scanHumidityToLocation
-)
-
-type Mapping struct {
-	DstRangeStart int
-	SrcRangeStart int
-	RangeLength   int
+type Range struct {
+	Dst    int
+	Src    int
+	Length int
 }
 
 func lowestLocationNumber(lines []string) int {
+	seeds := extractSeeds(lines[0])
+	almanac := extractAlmanac(lines[1:])
+	return processSeedsWithAlmanac(seeds, almanac)
+}
 
-	scannerFlag := 0
+func processSeedsWithAlmanac(seeds []int, groups [][]Range) int {
+	locations := make([]int, 0)
+	for _, seed := range seeds {
+		value := seed
+		for _, ranges := range groups {
+			for _, r := range ranges {
+				srcStart := r.Src
+				srcEnd := r.Src + r.Length
+				dstStart := r.Dst
+				if value >= srcStart && value <= srcEnd {
+					value = dstStart + value - srcStart
+					break
+				}
+			}
+		}
+		locations = append(locations, value)
+	}
+	return slices.Min(locations)
+}
 
+func extractSeeds(line string) []int {
 	seeds := make([]int, 0)
-	seedToSoil := make([]Mapping, 0)
-	soilToFertilizer := make([]Mapping, 0)
-	fertilizerToWater := make([]Mapping, 0)
-	waterToLight := make([]Mapping, 0)
-	lightToTemperature := make([]Mapping, 0)
-	temperatureToHumidity := make([]Mapping, 0)
-	humidityToLocation := make([]Mapping, 0)
+	ids := strings.Fields(line[7:])
+	for _, id := range ids {
+		val := util.ConvertStringToInt(id)
+		seeds = append(seeds, val)
+	}
+	return seeds
+}
 
-loop:
-	for _, line := range lines {
-		if line == "" {
+func extractAlmanac(lines []string) [][]Range {
+	groups := make([][]Range, 0)
+	ranges := make([]Range, 0)
+	for i, line := range lines {
+		if line == "" || strings.HasSuffix(line, ":") || len(lines)-1 == i {
+			if len(ranges) > 0 {
+				groups = append(groups, ranges)
+				ranges = make([]Range, 0)
+			}
 			continue
 		}
-		switch {
-		case strings.HasPrefix(line, "seeds: "):
-			ids := strings.Fields(line[7:])
-			for _, id := range ids {
-				val := util.ConvertStringToInt(id)
-				seeds = append(seeds, val)
-			}
-			fmt.Printf("ids: %v\n", ids)
-		case strings.HasPrefix(line, "seed-to-soil map:"):
-			scannerFlag = scanSeedToSoil
-			continue loop
-		case strings.HasPrefix(line, "soil-to-fertilizer map:"):
-			scannerFlag = scanSoilToFertilizer
-			continue loop
-		case strings.HasPrefix(line, "fertilizer-to-water map:"):
-			scannerFlag = scanFertilizerToWater
-			continue loop
-		case strings.HasPrefix(line, "water-to-light map:"):
-			scannerFlag = scanWaterToLight
-			continue loop
-		case strings.HasPrefix(line, "light-to-temperature map:"):
-			scannerFlag = scanLightToTemperature
-			continue loop
-		case strings.HasPrefix(line, "temperature-to-humidity map:"):
-			scannerFlag = scanTemperatureToHumidity
-			continue loop
-		case strings.HasPrefix(line, "humidity-to-location map:"):
-			scannerFlag = scanHumidityToLocation
-			continue loop
-		default:
+		ids := strings.Fields(line)
+		r := Range{
+			Dst:    util.ConvertStringToInt(ids[0]),
+			Src:    util.ConvertStringToInt(ids[1]),
+			Length: util.ConvertStringToInt(ids[2]),
 		}
-		switch scannerFlag {
-		case scanSeedToSoil:
-			seedToSoil = fillMapping(line, seedToSoil)
-		case scanSoilToFertilizer:
-			soilToFertilizer = fillMapping(line, soilToFertilizer)
-		case scanFertilizerToWater:
-			fertilizerToWater = fillMapping(line, fertilizerToWater)
-		case scanWaterToLight:
-			waterToLight = fillMapping(line, waterToLight)
-		case scanLightToTemperature:
-			lightToTemperature = fillMapping(line, lightToTemperature)
-		case scanTemperatureToHumidity:
-			temperatureToHumidity = fillMapping(line, temperatureToHumidity)
-		case scanHumidityToLocation:
-			humidityToLocation = fillMapping(line, humidityToLocation)
-		default:
-		}
-	}
+		ranges = append(ranges, r)
 
-	lowest := 1 << 32
-	for _, seed := range seeds {
-		soil := corresponds(seed, seedToSoil)
-		fertilizer := corresponds(soil, soilToFertilizer)
-		water := corresponds(fertilizer, fertilizerToWater)
-		light := corresponds(water, waterToLight)
-		temperature := corresponds(light, lightToTemperature)
-		humidity := corresponds(temperature, temperatureToHumidity)
-		location := corresponds(humidity, humidityToLocation)
-		lowest = min(location, lowest)
 	}
-
-	return lowest
-}
-
-func corresponds(n int, mapping []Mapping) int {
-	for _, m := range mapping {
-		srcStart := m.SrcRangeStart
-		srcEnd := m.SrcRangeStart + m.RangeLength
-		dstStart := m.DstRangeStart
-		if n >= srcStart && n <= srcEnd {
-			d := n - srcStart
-			return dstStart + d
-		}
-	}
-	return n
-}
-
-func fillMapping(line string, sl []Mapping) []Mapping {
-	ids := strings.Fields(line)
-	item := Mapping{
-		DstRangeStart: util.ConvertStringToInt(ids[0]),
-		SrcRangeStart: util.ConvertStringToInt(ids[1]),
-		RangeLength:   util.ConvertStringToInt(ids[2]),
-	}
-	return append(sl, item)
+	return groups
 }
