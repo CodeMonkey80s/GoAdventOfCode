@@ -35,6 +35,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Rock Paper Scissors, Part 1](2022/day2_part1/day2_part1.go)                                                                           |⭐      |
 | 4    | [Day 2: Rock Paper Scissors, Part 2](2022/day2_part2/day2_part2.go)                                                                           |⭐      |
 | 5    | [Day 3: Rucksack Reorganization, Part 1](2022/day3_part1/day3_part1.go)                                                                           |⭐      |
+| 6    | [Day 4: Rucksack Reorganization, Part 2](2022/day3_part2/day3_part2.go)                                                                           |⭐      |
 
 
 # Static Analysis
