@@ -1,4 +1,4 @@
-package day6_part1
+package day6_part2
 
 import (
 	"fmt"
@@ -13,23 +13,23 @@ var testCases = []struct {
 }{
 	{
 		Input:  "mjqjpqmgbljsphdztnvjfqwrcgsmlb",
-		Output: 7,
+		Output: 19,
 	},
 	{
 		Input:  "bvwbjplbgvbhsrlpgdmjqwftvncz",
-		Output: 5,
+		Output: 23,
 	},
 	{
 		Input:  "nppdvjthqldpwncqszvftbrmjlhg",
-		Output: 6,
+		Output: 23,
 	},
 	{
 		Input:  "nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg",
-		Output: 10,
+		Output: 29,
 	},
 	{
 		Input:  "zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw",
-		Output: 11,
+		Output: 26,
 	},
 }
 
@@ -41,7 +41,7 @@ func init() {
 	}{
 		{
 			Input:  lines[0],
-			Output: 1896,
+			Output: 3452,
 		},
 	}
 	testCases = append(testCases, testCase...)
@@ -59,24 +59,24 @@ func Test_startOfPacket(t *testing.T) {
 	}
 }
 
-func Test_isMarker(t *testing.T) {
+func Test_isMessage(t *testing.T) {
 	testCases := []struct {
 		Input  string
 		Output bool
 	}{
 		{
-			Input:  "",
+			Input:  "tnvjfqwrcgsmlb",
 			Output: true,
 		},
 		{
-			Input:  "mjqj",
+			Input:  "bvwbjplbgvbhsrlpgdmjqwftvncz",
 			Output: false,
 		},
 	}
 	for _, tc := range testCases {
 		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input, tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := isMarker(tc.Input)
+			output := isMessage(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}

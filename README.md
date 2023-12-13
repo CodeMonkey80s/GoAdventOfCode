@@ -41,6 +41,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 9    | [Day 5: Supply Stacks, Part 1](2022/day5_part1/day5_part1.go)                                                                         |⭐      |
 | 10   | [Day 5: Supply Stacks, Part 2](2022/day5_part2/day5_part2.go)                                                                         |⭐      |
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
+| 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
 
 
