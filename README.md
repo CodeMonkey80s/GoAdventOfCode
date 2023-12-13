@@ -37,6 +37,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Rucksack Reorganization, Part 1](2022/day3_part1/day3_part1.go)                                                               |⭐      |
 | 6    | [Day 4: Rucksack Reorganization, Part 2](2022/day3_part2/day3_part2.go)                                                               |⭐      |
 | 7    | [Day 5: Camp Cleanup, Part 1](2022/day4_part1/day4_part2.go)                                                                          |⭐      |
+| 8    | [Day 6: Camp Cleanup, Part 2](2022/day4_part2/day4_part2.go)                                                                          |⭐      |
 
 
 # Static Analysis
