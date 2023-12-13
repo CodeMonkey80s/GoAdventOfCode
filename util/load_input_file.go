@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"log"
 	"os"
-	"strings"
 )
 
 func LoadInputFile(s string) []string {
@@ -22,8 +21,7 @@ func LoadInputFile(s string) []string {
 	scanner.Split(bufio.ScanLines)
 	lines := make([]string, 0)
 	for scanner.Scan() {
-		text := strings.TrimSpace(scanner.Text())
-		lines = append(lines, text)
+		lines = append(lines, scanner.Text())
 	}
 	return lines
 }
