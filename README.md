@@ -6,7 +6,7 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
-# 2023, Days 7/25
+# 2023, Days 7,5/25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -43,7 +43,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
 | 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
-# 2021, Days 2/25
+# 2021, Days 3/25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -52,6 +52,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Dive!, Part 1](2021/day2_part1/day2_part1.go)                                                                                 |⭐      |
 | 4    | [Day 2: Dive!, Part 2](2021/day2_part2/day2_part2.go)                                                                                 |⭐      |
 | 5    | [Day 3: Binary Diagnostic, Part 1](2021/day3_part1/day3_part1.go)                                                                     |⭐      |
+| 6    | [Day 3: Binary Diagnostic, Part 2](2021/day3_part2/day3_part2.go)                                                                     |⭐      |
 
 
 # Static Analysis
