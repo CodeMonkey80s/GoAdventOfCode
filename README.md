@@ -6,7 +6,7 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
-# Solutions // 2023
+# 2023, Days 7/25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -26,7 +26,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 14   | [Day 7: Camel Cards, Part 2](2023/day7_part2/day7_part2.go)                                                                           |⭐      |
 | 15   | [Day 8: Haunted Wasteland, Part 1](2023/day8_part1/day8_part1.go)                                                                     |⭐      |
 
-# Solutions // 2022
+# 2022, Days 6/25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -43,6 +43,12 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
 | 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
+# 2021, Days 1/25
+
+| #    | Title                                                                                                                                 | Stars  |
+|:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| 1    | [Day 1: Sonar Sweep, Part 1](2021/day1_part1/day1_part1.go)                                                                      |⭐      |
+| 2    | [Day 1: Sonar sweep, Part 2](2021/day1_part2/day1_part2.go)                                                                      |⭐      |
 
 
 # Static Analysis
