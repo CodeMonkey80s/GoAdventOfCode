@@ -43,7 +43,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
 | 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
-# 2021, Days 1/25
+# 2021, Days 2/25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
