@@ -51,6 +51,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 2    | [Day 1: Sonar sweep, Part 2](2021/day1_part2/day1_part2.go)                                                                           |⭐      |
 | 3    | [Day 2: Dive!, Part 1](2021/day2_part1/day2_part1.go)                                                                                 |⭐      |
 | 4    | [Day 2: Dive!, Part 2](2021/day2_part2/day2_part2.go)                                                                                 |⭐      |
+| 5    | [Day 3: Binary Diagnostic, Part 1](2021/day3_part1/day3_part1.go)                                                                     |⭐      |
 
 
 # Static Analysis

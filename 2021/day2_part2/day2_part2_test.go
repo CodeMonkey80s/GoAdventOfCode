@@ -42,7 +42,7 @@ func init() {
 	testCases = append(testCases, testCase...)
 }
 
-func Test_startOfPacket(t *testing.T) {
+func Test_horizontalPosition(t *testing.T) {
 	for _, tc := range testCases {
 		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Name, tc.Output)
 		t.Run(label, func(t *testing.T) {
