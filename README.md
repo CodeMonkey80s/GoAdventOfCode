@@ -47,8 +47,9 @@ Repository with my solutions to **Advent Of Code** problems.
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
-| 1    | [Day 1: Sonar Sweep, Part 1](2021/day1_part1/day1_part1.go)                                                                      |⭐      |
-| 2    | [Day 1: Sonar sweep, Part 2](2021/day1_part2/day1_part2.go)                                                                      |⭐      |
+| 1    | [Day 1: Sonar Sweep, Part 1](2021/day1_part1/day1_part1.go)                                                                           |⭐      |
+| 2    | [Day 1: Sonar sweep, Part 2](2021/day1_part2/day1_part2.go)                                                                           |⭐      |
+| 3    | [Day 2: Dive!, Part 1](2021/day2_part1/day2_part1.go)                                                                                 |⭐      |
 
 
 # Static Analysis
