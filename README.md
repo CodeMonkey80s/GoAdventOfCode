@@ -53,6 +53,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 4    | [Day 2: Dive!, Part 2](2021/day2_part2/day2_part2.go)                                                                                 |⭐      |
 | 5    | [Day 3: Binary Diagnostic, Part 1](2021/day3_part1/day3_part1.go)                                                                     |⭐      |
 | 6    | [Day 3: Binary Diagnostic, Part 2](2021/day3_part2/day3_part2.go)                                                                     |⭐      |
+| 7    | [Day 4: Giant Squid, Part 1](2021/day4_part1/day4_part1.go)                                                                           |⭐      |
 
 
 # Static Analysis
