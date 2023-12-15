@@ -27,3 +27,7 @@ func ConvertByteToInt(s byte) int {
 	}
 	return val
 }
+
+func ConvertIntToString(n int) string {
+	return strconv.Itoa(n)
+}
