@@ -60,12 +60,14 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Lanternfish, Part 1](2021/day6_part1/day6_part1.go)                                                                           |⭐      |
 | 12   | [Day 6: Lanternfish, Part 2](2021/day6_part2/day6_part2.go)                                                                           |⭐      |
 
-# 2020, Days 1 / 25
+# 2020, Days 2 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: Report Repair, Part 1](2020/day1_part1/day1_part1.go)                                                                         |⭐      |
 | 2    | [Day 1: Report Repair, Part 2](2020/day1_part2/day1_part2.go)                                                                         |⭐      |
+| 3    | [Day 2: Password Philosophy, Part 1](2020/day2_part1/day2_part1.go)                                                                   |⭐      |
+| 4    | [Day 2: Password Philosophy, Part 2](2020/day2_part2/day2_part2.go)                                                                   |⭐      |
 
 # Static Analysis
 
