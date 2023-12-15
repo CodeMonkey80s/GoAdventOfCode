@@ -43,7 +43,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
 | 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
-# 2021, Days 5 / 25
+# 2021, Days 6 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -57,7 +57,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 8    | [Day 4: Giant Squid, Part 2](2021/day4_part2/day4_part2.go)                                                                           |⭐      |
 | 9    | [Day 5: Hydrothermal Venture, Part 1](2021/day5_part1/day5_part1.go)                                                                  |⭐      |
 | 10   | [Day 5: Hydrothermal Venture, Part 2](2021/day5_part2/day5_part2.go)                                                                  |⭐      |
-| 11   | [Day 6: Lanternfish, Part 2](2021/day6_part1/day6_part1.go)                                                                           |⭐      |
+| 11   | [Day 6: Lanternfish, Part 1](2021/day6_part1/day6_part1.go)                                                                           |⭐      |
+| 12   | [Day 6: Lanternfish, Part 2](2021/day6_part2/day6_part2.go)                                                                           |⭐      |
 
 
 # Static Analysis
