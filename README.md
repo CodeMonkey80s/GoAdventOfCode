@@ -6,7 +6,7 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
-# 2023, Days 7,5/25
+# 2023, Days 7.5 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -26,7 +26,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 14   | [Day 7: Camel Cards, Part 2](2023/day7_part2/day7_part2.go)                                                                           |⭐      |
 | 15   | [Day 8: Haunted Wasteland, Part 1](2023/day8_part1/day8_part1.go)                                                                     |⭐      |
 
-# 2022, Days 6/25
+# 2022, Days 6 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -43,7 +43,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 11   | [Day 6: Tuning Trouble, Part 1](2022/day6_part1/day6_part1.go)                                                                        |⭐      |
 | 12   | [Day 6: Tuning Trouble, Part 2](2022/day6_part2/day6_part2.go)                                                                        |⭐      |
 
-# 2021, Days 3/25
+# 2021, Days 3.5 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
