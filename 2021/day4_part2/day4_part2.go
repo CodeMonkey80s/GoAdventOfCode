@@ -22,9 +22,7 @@ func finalScore(lines []string) int {
 func getNumbers(line string) []string {
 	numbers := make([]string, 0)
 	parts := strings.Split(line, ",")
-	for _, number := range parts {
-		numbers = append(numbers, number)
-	}
+	numbers = append(numbers, parts...)
 	return numbers
 }
 

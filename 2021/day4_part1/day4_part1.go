@@ -13,12 +13,7 @@ type Board struct {
 func finalScore(lines []string) int {
 
 	numbers := getNumbers(lines[0])
-
 	boards := getBoards(lines[2:])
-	//for i, v := range boards {
-	//	fmt.Printf("b: %d, layout: %q\n", i, v.Layout)
-	//}
-
 	score := play(numbers, boards)
 
 	return score
@@ -27,9 +22,7 @@ func finalScore(lines []string) int {
 func getNumbers(line string) []string {
 	numbers := make([]string, 0)
 	parts := strings.Split(line, ",")
-	for _, number := range parts {
-		numbers = append(numbers, number)
-	}
+	numbers = append(numbers, parts...)
 	return numbers
 }
 
@@ -67,7 +60,6 @@ func play(numbers []string, boards []*Board) int {
 				}
 				board.Layout[i] = line
 				if isBingo(board) {
-					//fmt.Printf("i: %3.d, line: %v, number: %q, board: %d\n", i, layout, number, b)
 					return util.ConvertStringToInt(number) * sumNumberForBoard(board)
 				}
 
