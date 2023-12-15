@@ -21,13 +21,11 @@ func getAnswer(lines []string) int {
 }
 
 func getPolicy(line string) (int, int, rune, string) {
-	letter := '-'
-	password := ""
 	lo, hi := 0, 0
 	idx := strings.Index(line, ":")
-	letter = rune(line[idx-1])
+	letter := rune(line[idx-1])
 	numbers := line[:idx-2]
-	password = line[idx+2:]
+	password := line[idx+2:]
 	parts := strings.Split(numbers, "-")
 	lo = util.ConvertStringToInt(parts[0])
 	hi = util.ConvertStringToInt(parts[1])
