@@ -21,7 +21,7 @@ var testCases = []struct {
 }
 
 func init() {
-	lines := util.LoadInputFile("../inputs/day4_input.txt")
+	lines := util.LoadInputFile("../inputs/day5_input.txt")
 	testCase := []struct {
 		Name   string
 		Input  []string
@@ -30,7 +30,7 @@ func init() {
 		{
 			Name:   "Puzzle Input",
 			Input:  lines,
-			Output: -1,
+			Output: 255,
 		},
 	}
 	testCases = append(testCases, testCase...)

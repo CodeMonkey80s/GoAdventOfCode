@@ -22,7 +22,7 @@ var testCases = []struct {
 }
 
 func init() {
-	lines := util.LoadInputFile("../inputs/day4_input.txt")
+	lines := util.LoadInputFile("../inputs/day5_input.txt")
 	testCase := []struct {
 		Name   string
 		Input  []string
