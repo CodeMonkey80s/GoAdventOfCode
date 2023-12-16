@@ -93,6 +93,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 2    | [Day 1: Not Quite Lisp, Part 2](2015/day1_part2/day1_part2.go)                                                                        |⭐      |
 | 3    | [Day 2: I Was Told There Would Be No Math, Part 1](2015/day2_part1/day2_part1.go)                                                     |⭐      |
 | 3    | [Day 2: I Was Told There Would Be No Math, Part 2](2015/day2_part2/day2_part2.go)                                                     |⭐      |
+| 4    | [Day 3: Perfectly Spherical Houses in a Vacuum, Part 1](2015/day3_part1/day3_part1.go)                                                |⭐      |
+| 5    | [Day 3: Perfectly Spherical Houses in a Vacuum, Part 2](2015/day3_part2/day3_part2.go)                                                |⭐      |
 
 # Static Analysis
 
