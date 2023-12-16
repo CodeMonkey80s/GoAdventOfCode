@@ -85,7 +85,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Inventory Management System, Part 1](2018/day2_part1/day2_part1.go)                                                           |⭐      |
 | 4    | [Day 2: Inventory Management System, Part 2](2018/day2_part2/day2_part2.go)                                                           |⭐      |
 
-# 2015, Days 4 / 25
+# 2015, Days 5 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -97,6 +97,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 6    | [Day 3: Perfectly Spherical Houses in a Vacuum, Part 2](2015/day3_part2/day3_part2.go)                                                |⭐      |
 | 7    | [Day 4: The Ideal Stocking Stuffer, Part 1](2015/day4_part1/day4_part1.go)                                                            |⭐      |
 | 8    | [Day 4: The Ideal Stocking Stuffer, Part 2](2015/day4_part2/day4_part2.go)                                                            |⭐      |
+| 9    | [Day 5: Doesn't He Have Intern-Elves For This?, Part 1](2015/day5_part1/day5_part1.go)                                                |⭐      |
+| 10   | [Day 5: Doesn't He Have Intern-Elves For This?, Part 2](2015/day5_part2/day5_part2.go)                                                |⭐      |
 
 # Static Analysis
 
