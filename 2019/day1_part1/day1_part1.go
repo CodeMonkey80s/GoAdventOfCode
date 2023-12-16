@@ -1,8 +1,6 @@
 package day1_part1
 
 import (
-	"math"
-
 	"GoAdventOfCode/util"
 )
 
@@ -16,7 +14,7 @@ func getAnswer(lines []string) int {
 
 func adjustMass(line string) int {
 	mass := util.ConvertStringToInt(line)
-	mass = int(math.Floor(float64(mass / 3)))
+	mass = mass / 3
 	mass -= 2
 	return mass
 }
