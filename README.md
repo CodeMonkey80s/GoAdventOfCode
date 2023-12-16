@@ -85,12 +85,14 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Inventory Management System, Part 1](2018/day2_part1/day2_part1.go)                                                           |⭐      |
 | 4    | [Day 2: Inventory Management System, Part 2](2018/day2_part2/day2_part2.go)                                                           |⭐      |
 
-# 2015, Days 1 / 25
+# 2015, Days 2 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: Not Quite Lisp, Part 1](2015/day1_part1/day1_part1.go)                                                                        |⭐      |
 | 2    | [Day 1: Not Quite Lisp, Part 2](2015/day1_part2/day1_part2.go)                                                                        |⭐      |
+| 3    | [Day 2: I Was Told There Would Be No Math, Part 1](2015/day2_part1/day2_part1.go)                                                     |⭐      |
+| 3    | [Day 2: I Was Told There Would Be No Math, Part 2](2015/day2_part2/day2_part2.go)                                                     |⭐      |
 
 # Static Analysis
 
