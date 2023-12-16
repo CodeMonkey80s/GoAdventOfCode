@@ -69,6 +69,13 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Password Philosophy, Part 1](2020/day2_part1/day2_part1.go)                                                                   |⭐      |
 | 4    | [Day 2: Password Philosophy, Part 2](2020/day2_part2/day2_part2.go)                                                                   |⭐      |
 
+# 2019, Days 1 / 25
+
+| #    | Title                                                                                                                                 | Stars  |
+|:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| 1    | [Day 1: The Tyranny of the Rocket Equation, Part 1](2019/day1_part1/day1_part1.go)                                                    |⭐      |
+| 2    | [Day 1: The Tyranny of the Rocket Equation, Part 2](2019/day1_part2/day1_part2.go)                                                    |⭐      |
+
 # Static Analysis
 
 Run `golangci-lint` command. There is a hidden configuration file for this tool inside root directory `.golangci.yml`.
