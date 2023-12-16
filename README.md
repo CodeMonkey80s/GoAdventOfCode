@@ -85,7 +85,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Inventory Management System, Part 1](2018/day2_part1/day2_part1.go)                                                           |⭐      |
 | 4    | [Day 2: Inventory Management System, Part 2](2018/day2_part2/day2_part2.go)                                                           |⭐      |
 
-# 2015, Days 5 / 25
+# 2015, Days 6 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
