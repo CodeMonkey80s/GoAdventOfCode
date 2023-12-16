@@ -99,6 +99,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 8    | [Day 4: The Ideal Stocking Stuffer, Part 2](2015/day4_part2/day4_part2.go)                                                            |⭐      |
 | 9    | [Day 5: Doesn't He Have Intern-Elves For This?, Part 1](2015/day5_part1/day5_part1.go)                                                |⭐      |
 | 10   | [Day 5: Doesn't He Have Intern-Elves For This?, Part 2](2015/day5_part2/day5_part2.go)                                                |⭐      |
+| 11   | [Day 6: Probably a Fire Hazard, Part 1](2015/day6_part1/day6_part1.go)                                                                |⭐      |
+| 12   | [Day 6: Probably a Fire Hazard, Part 2](2015/day6_part2/day6_part2.go)                                                                |⭐      |
 
 # Static Analysis
 
