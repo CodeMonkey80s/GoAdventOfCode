@@ -78,7 +78,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: 1202 Program Alarm, Part 1](2019/day1_part1/day1_part1.go)                                                                    |⭐      |
 | 4    | [Day 2: 1202 Program Alarm, Part 2](2019/day1_part2/day1_part2.go)                                                                    |⭐      |
 
-# 2018, Days 2 / 25
+# 2018, Days 3 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -86,6 +86,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 2    | [Day 1: Chronal Calibration, Part 2](2018/day1_part2/day1_part2.go)                                                                   |⭐      |
 | 3    | [Day 2: Inventory Management System, Part 1](2018/day2_part1/day2_part1.go)                                                           |⭐      |
 | 4    | [Day 2: Inventory Management System, Part 2](2018/day2_part2/day2_part2.go)                                                           |⭐      |
+| 5    | [Day 3: No Matter How You Slice It, Part 1](2018/day3_part1/day3_part1.go)                                                            |⭐      |
+| 6    | [Day 3: No Matter How You Slice It, Part 2](2018/day3_part2/day3_part2.go)                                                            |⭐      |
 
 # 2015, Days 6 / 25
 

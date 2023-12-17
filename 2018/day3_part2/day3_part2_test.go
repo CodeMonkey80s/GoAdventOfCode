@@ -1,4 +1,4 @@
-package day3_part1
+package day3_part2
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 var testCases = []struct {
 	Name   string
 	Input  []string
-	Output int
+	Output string
 }{
 	{
 		Input: []string{
@@ -18,7 +18,7 @@ var testCases = []struct {
 			"#2 @ 3,1: 4x4",
 			"#3 @ 5,5: 2x2",
 		},
-		Output: 4,
+		Output: "#3",
 	},
 }
 
@@ -27,12 +27,12 @@ func init() {
 	testCase := []struct {
 		Name   string
 		Input  []string
-		Output int
+		Output string
 	}{
 		{
 			Name:   "Puzzle Input",
 			Input:  lines,
-			Output: 107043,
+			Output: "#346",
 		},
 	}
 	testCases = append(testCases, testCase...)
