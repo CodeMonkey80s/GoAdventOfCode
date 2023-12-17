@@ -69,7 +69,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 3    | [Day 2: Password Philosophy, Part 1](2020/day2_part1/day2_part1.go)                                                                   |⭐      |
 | 4    | [Day 2: Password Philosophy, Part 2](2020/day2_part2/day2_part2.go)                                                                   |⭐      |
 
-# 2019, Days 1 / 25
+# 2019, Days 2 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
