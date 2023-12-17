@@ -1,8 +1,9 @@
 package day3_part1
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/util"
 )
 
 func sumOfAllOfThePartNumbers(schematic []string) int {
@@ -57,10 +58,7 @@ func sumOfAllOfThePartNumbers(schematic []string) int {
 				if size > 0 {
 					ok := isPartNumber(x-size, y, size)
 					if ok {
-						value, err := strconv.Atoi(number)
-						if err != nil {
-							panic(err)
-						}
+						value := util.ConvertStringToInt(number)
 						sum += value
 					}
 				}

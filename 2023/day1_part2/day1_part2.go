@@ -1,8 +1,9 @@
 package day1_part2
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/util"
 )
 
 func sumOfAllTheCalibrationValues(lines []string) int {
@@ -58,10 +59,7 @@ func sumOfAllTheCalibrationValues(lines []string) int {
 
 		if num1 != "" && num2 != "" {
 			number := num1 + num2
-			val, err := strconv.Atoi(number)
-			if err != nil {
-				panic(err)
-			}
+			val := util.ConvertStringToInt(number)
 			sum += val
 		}
 	}

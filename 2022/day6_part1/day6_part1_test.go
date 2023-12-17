@@ -65,7 +65,7 @@ func Test_isMarker(t *testing.T) {
 		Output bool
 	}{
 		{
-			Input:  "",
+			Input:  "majo",
 			Output: true,
 		},
 		{

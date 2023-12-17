@@ -1,8 +1,9 @@
 package day4_part2
 
 import (
-	"strconv"
 	"strings"
+
+	"GoAdventOfCode/util"
 )
 
 func howManyTotalScratchcards(cards []string) int {
@@ -20,10 +21,7 @@ func howManyTotalScratchcards(cards []string) int {
 		card := cardA[:idx]
 		card = strings.TrimRight(card, ":")
 		card = strings.TrimLeft(card, "Card ")
-		id, err := strconv.Atoi(card)
-		if err != nil {
-			panic(err)
-		}
+		id := util.ConvertStringToInt(card)
 
 		cardA = cardA[idx:]
 		numbersA := strings.Fields(cardA)

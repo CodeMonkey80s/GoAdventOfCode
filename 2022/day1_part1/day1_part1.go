@@ -1,6 +1,8 @@
 package day1_part1
 
-import "strconv"
+import (
+	"GoAdventOfCode/util"
+)
 
 func howManyTotalCalories(input []string) int {
 	total := 0
@@ -11,10 +13,7 @@ func howManyTotalCalories(input []string) int {
 			sum = 0
 			continue
 		}
-		val, err := strconv.Atoi(line)
-		if err != nil {
-			panic(err)
-		}
+		val := util.ConvertStringToInt(line)
 		sum += val
 	}
 
