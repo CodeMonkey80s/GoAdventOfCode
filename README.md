@@ -89,6 +89,13 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: No Matter How You Slice It, Part 1](2018/day3_part1/day3_part1.go)                                                            |⭐      |
 | 6    | [Day 3: No Matter How You Slice It, Part 2](2018/day3_part2/day3_part2.go)                                                            |⭐      |
 
+# 2016, Days 1 / 25
+
+| #    | Title                                                                                                                                 | Stars  |
+|:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
+| 1    | [Day 1: No Time for a Taxicab, Part 1](2016/day1_part1/day1_part1.go)                                                                 |⭐      |
+| 2    | [Day 1: No Time for a Taxicab, Part 2](2016/day1_part2/day1_part2.go)                                                                 |⭐      |
+
 # 2015, Days 6 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
