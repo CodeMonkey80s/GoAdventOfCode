@@ -89,7 +89,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: No Matter How You Slice It, Part 1](2018/day3_part1/day3_part1.go)                                                            |⭐      |
 | 6    | [Day 3: No Matter How You Slice It, Part 2](2018/day3_part2/day3_part2.go)                                                            |⭐      |
 
-# 2017, Days 0.5 / 25
+# 2017, Days 1 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
