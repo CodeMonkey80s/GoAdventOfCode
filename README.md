@@ -75,6 +75,8 @@ Repository with my solutions to **Advent Of Code** problems.
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: The Tyranny of the Rocket Equation, Part 1](2019/day1_part1/day1_part1.go)                                                    |⭐      |
 | 2    | [Day 1: The Tyranny of the Rocket Equation, Part 2](2019/day1_part2/day1_part2.go)                                                    |⭐      |
+| 3    | [Day 2: 1202 Program Alarm, Part 1](2019/day1_part1/day1_part1.go)                                                                    |⭐      |
+| 4    | [Day 2: 1202 Program Alarm, Part 2](2019/day1_part2/day1_part2.go)                                                                    |⭐      |
 
 # 2018, Days 2 / 25
 
