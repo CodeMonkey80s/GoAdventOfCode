@@ -95,6 +95,8 @@ Repository with my solutions to **Advent Of Code** problems.
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: No Time for a Taxicab, Part 1](2016/day1_part1/day1_part1.go)                                                                 |⭐      |
 | 2    | [Day 1: No Time for a Taxicab, Part 2](2016/day1_part2/day1_part2.go)                                                                 |⭐      |
+| 3    | [Day 2: Bathroom Security, Part 1](2016/day1_part1/day1_part1.go)                                                                     |⭐      |
+| 4    | [Day 2: Bathroom Security, Part 2](2016/day2_part1/day2_part1.go)                                                                     |⭐      |
 
 # 2015, Days 6 / 25
 
