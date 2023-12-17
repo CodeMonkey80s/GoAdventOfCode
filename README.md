@@ -94,6 +94,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
 | 1    | [Day 1: Inverse Captcha, Part 1](2017/day1_part1/day1_part1.go)                                                                       |⭐      |
+| 2    | [Day 1: Inverse Captcha, Part 2](2017/day2_part1/day2_part1.go)                                                                       |⭐      |
 
 # 2016, Days 3 / 25
 
