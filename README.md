@@ -109,7 +109,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 
-# 2015, Days 6 / 25
+# 2015, Days 7 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -125,6 +125,10 @@ Repository with my solutions to **Advent Of Code** problems.
 | 10   | [Day 5: Doesn't He Have Intern-Elves For This?, Part 2](2015/day5_part2/day5_part2.go)                                                |⭐      |
 | 11   | [Day 6: Probably a Fire Hazard, Part 1](2015/day6_part1/day6_part1.go)                                                                |⭐      |
 | 12   | [Day 6: Probably a Fire Hazard, Part 2](2015/day6_part2/day6_part2.go)                                                                |⭐      |
+| 13   | Day 7: Some Assembly Required, Part 1                                                                                                 |💀      |
+| 14   | Day 7: Some Assembly Required, Part 2                                                                                                 |💀      |
+| 15   | [Day 8: Matchsticks, Part 1](2015/day8_part1/day8_part1.go)                                                                           |⭐      |
+| 16   | [Day 8: Matchsticks, Part 2](2015/day8_part2/day8_part2.go)                                                                           |⭐      |
 
 # Static Analysis
 
