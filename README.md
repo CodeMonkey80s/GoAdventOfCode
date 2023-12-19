@@ -125,10 +125,18 @@ Repository with my solutions to **Advent Of Code** problems.
 | 10   | [Day 5: Doesn't He Have Intern-Elves For This?, Part 2](2015/day5_part2/day5_part2.go)                                                |⭐      |
 | 11   | [Day 6: Probably a Fire Hazard, Part 1](2015/day6_part1/day6_part1.go)                                                                |⭐      |
 | 12   | [Day 6: Probably a Fire Hazard, Part 2](2015/day6_part2/day6_part2.go)                                                                |⭐      |
-| 13   | Day 7: Some Assembly Required, Part 1                                                                                                 |💀      |
-| 14   | Day 7: Some Assembly Required, Part 2                                                                                                 |💀      |
-| 15   | [Day 8: Matchsticks, Part 1](2015/day8_part1/day8_part1.go)                                                                           |⭐      |
-| 16   | [Day 8: Matchsticks, Part 2](2015/day8_part2/day8_part2.go)                                                                           |⭐      |
+| 13   | Day 7: Some Assembly Required, Part 1                                                                                                 |       |
+| 14   | Day 7: Some Assembly Required, Part 2                                                                                                 |       |
+| 15   | [Day 8: Matchsticks, Part 1](2015/day8_part1/day8_part1.go)                                                                           |⭐     |
+| 16   | [Day 8: Matchsticks, Part 2](2015/day8_part2/day8_part2.go)                                                                           |⭐     |
+| 17   | Day 9: All in a Single Night, Part 1                                                                                                  |       |
+| 18   | Day 9: All in a Single Night, Part 2                                                                                                  |       |
+| 19   | Day 10: Elves Look, Elves Say, Part 1                                                                                                 |       |
+| 20   | Day 10: Elves Look, Elves Say, Part 2                                                                                                 |       |
+| 21   | Day 11: Corporate Policy, Part 1                                                                                                      |       |
+| 22   | Day 11: Corporate Policy, Part 2                                                                                                      |       |
+| 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                                                                  |       |
+| 24   | Day 12: JSAbacusFramework.io, Part 2                                                                                                  |       |
 
 # Static Analysis
 
