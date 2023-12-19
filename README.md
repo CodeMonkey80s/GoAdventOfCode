@@ -109,7 +109,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 
-# 2015, Days 7 / 25
+# 2015, Days 7.5 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -135,7 +135,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 20   | Day 10: Elves Look, Elves Say, Part 2                                                                                                 |       |
 | 21   | Day 11: Corporate Policy, Part 1                                                                                                      |       |
 | 22   | Day 11: Corporate Policy, Part 2                                                                                                      |       |
-| 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                                                                  |       |
+| 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                               |⭐     |
 | 24   | Day 12: JSAbacusFramework.io, Part 2                                                                                                  |       |
 
 # Static Analysis
