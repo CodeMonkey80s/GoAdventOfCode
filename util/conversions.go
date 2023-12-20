@@ -36,6 +36,23 @@ func ConvertByteToInt(s byte) int {
 	return val
 }
 
+func ConvertRuneToInt(s rune) int {
+	val, err := strconv.Atoi(string(s))
+	if err != nil {
+		return 0
+	}
+	return val
+}
+
 func ConvertIntToString(n int) string {
 	return strconv.Itoa(n)
+}
+
+func IsNumber(s string) bool {
+	for _, char := range s {
+		if '0' >= char || char >= '9' {
+			return false
+		}
+	}
+	return true
 }

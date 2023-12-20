@@ -125,7 +125,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 10   | [Day 5: Doesn't He Have Intern-Elves For This?, Part 2](2015/day5_part2/day5_part2.go)                                                |⭐      |
 | 11   | [Day 6: Probably a Fire Hazard, Part 1](2015/day6_part1/day6_part1.go)                                                                |⭐      |
 | 12   | [Day 6: Probably a Fire Hazard, Part 2](2015/day6_part2/day6_part2.go)                                                                |⭐      |
-| 13   | Day 7: Some Assembly Required, Part 1                                                                                                 |       |
+| 13   | [Day 7: Some Assembly Required, Part 1](2015/day7_part1/day7_part1.go)                                                                |⭐      |
 | 14   | Day 7: Some Assembly Required, Part 2                                                                                                 |       |
 | 15   | [Day 8: Matchsticks, Part 1](2015/day8_part1/day8_part1.go)                                                                           |⭐     |
 | 16   | [Day 8: Matchsticks, Part 2](2015/day8_part2/day8_part2.go)                                                                           |⭐     |
