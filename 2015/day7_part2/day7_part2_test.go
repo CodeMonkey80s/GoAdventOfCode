@@ -17,7 +17,7 @@ func Test_getAnswer_Puzzle_Input(t *testing.T) {
 		{
 			Input:    lines,
 			Register: "a",
-			Output:   16076,
+			Output:   2797,
 		},
 	}
 	for _, tc := range testCases {

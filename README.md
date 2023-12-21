@@ -136,7 +136,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 21   | Day 11: Corporate Policy, Part 1                                                                                                      |       |
 | 22   | Day 11: Corporate Policy, Part 2                                                                                                      |       |
 | 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                               |⭐     |
-| 24   | Day 12: JSAbacusFramework.io, Part 2                                                                                                  |       |
+| 24   | [Day 12: JSAbacusFramework.io, Part 2](2015/day12_part1/day12_part2.go)                                                               |⭐      |
 
 # Static Analysis
 
