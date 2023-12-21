@@ -137,6 +137,10 @@ Repository with my solutions to **Advent Of Code** problems.
 | 22   | [Day 11: Corporate Policy, Part 2](2015/day11_part1/day11_part1.go)                                                                   |⭐      |
 | 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                               |⭐     |
 | 24   | [Day 12: JSAbacusFramework.io, Part 2](2015/day12_part1/day12_part2.go)                                                               |⭐      |
+| 25   | [Day 13: Knights of the Dinner Table, Part 1]                                                                                         |      |
+| 26   | [Day 13: Knights of the Dinner Table, Part 2]                                                                                         |      |
+| 27   | [Day 14: Reindeer Olympics, Part 1](2015/day14_part1/day14_part1.go)                                                                  |⭐     |
+| 28   | [Day 14: Reindeer Olympics, Part 2]                                                                                                   |      |
 
 # Static Analysis
 
