@@ -1,4 +1,4 @@
-package day11_part1
+package day11_part2
 
 import (
 	"fmt"
@@ -8,12 +8,16 @@ import (
 func getAnswer(input string) string {
 	password := input
 	i := 0
+	n := 0
 	for {
 		password = incrementPassword(password)
 		ok := isPasswordValid(password)
 		if ok {
+			n++
 			fmt.Printf("Output: %d = %q\n", i, password)
-			return password
+			if n == 2 { // comment this out for part 1
+				return password
+			}
 		}
 		i++
 	}
