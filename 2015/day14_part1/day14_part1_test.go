@@ -36,7 +36,7 @@ func Test_getAnswer(t *testing.T) {
 		{
 			Input:     lines,
 			InputTime: 2503,
-			Output:    -1,
+			Output:    2660,
 		},
 	}
 	testCases = append(testCases, testCase...)
