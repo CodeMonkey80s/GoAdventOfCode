@@ -133,8 +133,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 18   | Day 9: All in a Single Night, Part 2                                                                                                  |       |
 | 19   | Day 10: Elves Look, Elves Say, Part 1                                                                                                 |       |
 | 20   | Day 10: Elves Look, Elves Say, Part 2                                                                                                 |       |
-| 21   | Day 11: Corporate Policy, Part 1                                                                                                      |       |
-| 22   | Day 11: Corporate Policy, Part 2                                                                                                      |       |
+| 21   | [Day 11: Corporate Policy, Part 1](2015/day11_part1/day11_part1.go)                                                                   |⭐      |
+| 22   | [Day 11: Corporate Policy, Part 2](2015/day11_part1/day11_part1.go)                                                                   |⭐      |
 | 23   | [Day 12: JSAbacusFramework.io, Part 1](2015/day12_part1/day12_part1.go)                                                               |⭐     |
 | 24   | [Day 12: JSAbacusFramework.io, Part 2](2015/day12_part1/day12_part2.go)                                                               |⭐      |
 
