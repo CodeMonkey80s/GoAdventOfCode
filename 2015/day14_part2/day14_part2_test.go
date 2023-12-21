@@ -1,4 +1,4 @@
-package day14_part1
+package day14_part2
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ func Test_getAnswer(t *testing.T) {
 				"Dancer can fly 16 km/s for 11 seconds, but then must rest for 162 seconds",
 			},
 			InputTime: 1000,
-			Output:    1120,
+			Output:    689,
 		},
 	}
 	lines := util.LoadInputFile("../inputs/day14_input.txt")
@@ -33,7 +33,7 @@ func Test_getAnswer(t *testing.T) {
 		{
 			Input:     lines,
 			InputTime: 2503,
-			Output:    2660,
+			Output:    1256,
 		},
 	}
 	testCases = append(testCases, testCase...)
