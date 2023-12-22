@@ -141,6 +141,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 26   | Day 13: Knights of the Dinner Table, Part 2                                                                                           |      |
 | 27   | [Day 14: Reindeer Olympics, Part 1](2015/day14_part1/day14_part1.go)                                                                  |⭐     |
 | 28   | [Day 14: Reindeer Olympics, Part 2](2015/day14_part2/day14_part2.go)                                                                  |⭐     |
+| 29   | [Day 15: Science for Hungry People, Part 1](2015/day15_part1/day15_part1.go)                                                          |⭐     |
+| 30   | [Day 15: Science for Hungry People, Part 2](2015/day15_part2/day15_part2.go)                                                          |⭐     |
 
 # Static Analysis
 
