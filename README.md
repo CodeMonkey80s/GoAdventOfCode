@@ -109,7 +109,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 
-# 2015, Days 12 / 25
+# 2015, Days 13 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -129,8 +129,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 14   | [Day 7: Some Assembly Required, Part 2](2015/day7_part2/day7_part2.go)                                                                |⭐      |
 | 15   | [Day 8: Matchsticks, Part 1](2015/day8_part1/day8_part1.go)                                                                           |⭐      |
 | 16   | [Day 8: Matchsticks, Part 2](2015/day8_part2/day8_part2.go)                                                                           |⭐      |
-| 17   | Day 9: All in a Single Night, Part 1                                                                                                  |       |
-| 18   | Day 9: All in a Single Night, Part 2                                                                                                  |       |
+| 17   | [Day 9: All in a Single Night, Part 1](2015/day9_part1/day9_part1.go)                                                                 |⭐      |
+| 18   | [Day 9: All in a Single Night, Part 2](2015/day9_part2/day9_part2.go)                                                                 |⭐      |
 | 19   | Day 10: Elves Look, Elves Say, Part 1                                                                                                 |       |
 | 20   | Day 10: Elves Look, Elves Say, Part 2                                                                                                 |       |
 | 21   | [Day 11: Corporate Policy, Part 1](2015/day11_part1/day11_part1.go)                                                                   |⭐      |
