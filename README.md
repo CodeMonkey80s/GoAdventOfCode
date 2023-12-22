@@ -109,7 +109,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 
-# 2015, Days 11 / 25
+# 2015, Days 12 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
