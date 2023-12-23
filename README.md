@@ -89,7 +89,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: No Matter How You Slice It, Part 1](2018/day3_part1/day3_part1.go)                                                            |⭐      |
 | 6    | [Day 3: No Matter How You Slice It, Part 2](2018/day3_part2/day3_part2.go)                                                            |⭐      |
 
-# 2017, Days 2 / 25
+# 2017, Days 3 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -97,6 +97,10 @@ Repository with my solutions to **Advent Of Code** problems.
 | 2    | [Day 1: Inverse Captcha, Part 2](2017/day2_part1/day2_part1.go)                                                                       |⭐      |
 | 3    | [Day 2: Corruption Checksum, Part 1](2017/day1_part1/day1_part1.go)                                                                   |⭐      |
 | 4    | [Day 2: Corruption Checksum, Part 2](2017/day2_part1/day2_part1.go)                                                                   |⭐      |
+| 5    | Day 3: Spiral Memory, Part 1                                                                                                          |       |
+| 6    | Day 3: Spiral Memory, Part 2                                                                                                          |       |
+| 7    | [Day 4: High-Entropy Passphrases, Part 1](2017/day4_part1/day4_part1.go)                                                              |⭐      |
+| 8    | [Day 4: High-Entropy Passphrases, Part 2](2017/day4_part2/day4_part2.go)                                                              |⭐      |
 
 # 2016, Days 3 / 25
 
