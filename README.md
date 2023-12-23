@@ -113,7 +113,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 
-# 2015, Days 14 / 25
+# 2015, Days 15 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -149,6 +149,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 30   | [Day 15: Science for Hungry People, Part 2](2015/day15_part2/day15_part2.go)                                                          |⭐     |
 | 31   | [Day 16: Aunt Sue, Part 1](2015/day16_part1/day16_part1.go)                                                                           |⭐     |
 | 32   | [Day 16: Aunt Sue, Part 2](2015/day16_part2/day16_part2.go)                                                                           |⭐     |
+| 33   | [Day 17: No Such Thing as Too Much, Part 1](2015/day17_part1/day17_part1.go)                                                          |⭐     |
+| 34   | [Day 17: No Such Thing as Too Much, Part 2](2015/day17_part2/day17_part2.go)                                                          |⭐     |
 
 # Static Analysis
 
