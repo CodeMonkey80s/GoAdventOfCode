@@ -114,6 +114,10 @@ Repository with my solutions to **Advent Of Code** problems.
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
 | 7    | [Day 4: Security Through Obscurity, Part 1](2016/day4_part1/day4_part1.go)                                                            |⭐      |
 | 8    | [Day 4: Security Through Obscurity, Part 2](2016/day4_part2/day4_part2.go)                                                            |⭐      |
+| 9    | Day 5: Spiral Memory, Part 1                                                                                                          |       |
+| 10   | Day 5: Spiral Memory, Part 2                                                                                                          |       |
+| 11   | [Day 6: Signals and Noise, Part 1](2016/day6_part1/day6_part1.go)                                                                     |⭐      |
+| 12   | [Day 6: Signals and Noise, Part 2](2016/day6_part2/day6_part2.go)                                                                     |⭐      |
 
 # 2015, Days 15 / 25
 
