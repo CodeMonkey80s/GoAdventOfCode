@@ -102,7 +102,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 7    | [Day 4: High-Entropy Passphrases, Part 1](2017/day4_part1/day4_part1.go)                                                              |⭐      |
 | 8    | [Day 4: High-Entropy Passphrases, Part 2](2017/day4_part2/day4_part2.go)                                                              |⭐      |
 
-# 2016, Days 4 / 25
+# 2016, Days 5 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
