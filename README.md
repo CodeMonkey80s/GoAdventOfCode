@@ -6,7 +6,7 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
-**2023**
+# 2023
 Completed: 7.5/25 (30%
 
 - ✅&emsp;Day 1: Trebuchet?!&emsp;[one](2023/day1_part1/day1_part1.go)&emsp;[two](2023/day1_part1/day1_part2.go)
@@ -18,7 +18,7 @@ Completed: 7.5/25 (30%
 - ✅&emsp;Day 7: Camel Cards&emsp;[one](2023/day7_part1/day7_part1.go)&emsp;[two](2023/day7_part2/day7_part2.go)
 - ✅&emsp;Day 8: Haunted Wasteland&emsp;[one](2023/day7_part1/day7_part1.go)
 
-*2022**
+# 2022
 Completed: 6/25 (24%)
 
 - ✅&emsp;Day 1: Calorie Counting&emsp;[one](2022/day1_part1/day1_part1.go)&emsp;[two](2022/day1_part1/day1_part2.go)
