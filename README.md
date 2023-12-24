@@ -102,7 +102,7 @@ Repository with my solutions to **Advent Of Code** problems.
 | 7    | [Day 4: High-Entropy Passphrases, Part 1](2017/day4_part1/day4_part1.go)                                                              |⭐      |
 | 8    | [Day 4: High-Entropy Passphrases, Part 2](2017/day4_part2/day4_part2.go)                                                              |⭐      |
 
-# 2016, Days 3 / 25
+# 2016, Days 4 / 25
 
 | #    | Title                                                                                                                                 | Stars  |
 |:-----|:--------------------------------------------------------------------------------------------------------------------------------------|:-------|
@@ -112,6 +112,8 @@ Repository with my solutions to **Advent Of Code** problems.
 | 4    | [Day 2: Bathroom Security, Part 2](2016/day2_part1/day2_part1.go)                                                                     |⭐      |
 | 5    | [Day 3: Squares With Three Sides, Part 1](2016/day3_part1/day3_part1.go)                                                              |⭐      |
 | 6    | [Day 3: Squares With Three Sides, Part 2](2016/day3_part2/day3_part2.go)                                                              |⭐      |
+| 7    | [Day 4: Security Through Obscurity, Part 1](2016/day4_part1/day4_part1.go)                                                            |⭐      |
+| 8    | [Day 4: Security Through Obscurity, Part 2](2016/day4_part2/day4_part2.go)                                                            |⭐      |
 
 # 2015, Days 15 / 25
 
