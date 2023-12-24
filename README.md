@@ -57,6 +57,14 @@ Completed: 3/25 (12%)
 - ✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part1/day2_part2.go)
 - ✅&emsp;Day 3: No Matter How You Slice It&emsp;[one](2018/day3_part1/day3_part1.go)&emsp;[two](2018/day3_part1/day3_part2.go)
 
+# 2017
+Completed: 3/25 (12%)
+
+- ✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part1/day1_part2.go)
+- ✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part1/day2_part2.go)
+- 🔲&emsp;Day 3: Spiral Memory&emsp;
+- ✅&emsp;Day 4: High-Entropy Passphrase&emsp;[one](2017/day4_part1/day4_part1.go)&emsp;[two](2017/day4_part1/day4_part2.go)
+
 
 # Static Analysis
 
