@@ -9,7 +9,7 @@ Repository with my solutions to **Advent Of Code** problems.
 # 2023
 Completed: 7.5/25 (30%)
 
-- ✅&emsp;Day 1: Trebuchet?!&emsp;[one](2023/day1_part1/day1_part1.go)&emsp;[two](2023/day1_part1/day1_part2.go)
+- ✅&emsp;Day 1: Trebuchet?!&emsp;[one](2023/day1_part1/day1_part1.go)&emsp;[two](2023/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Cube Conundrum&emsp;[one](2023/day2_part1/day2_part1.go)&emsp;[two](2023/day2_part2/day2_part2.go)
 - ✅&emsp;Day 3: Gear Ratios&emsp;[one](2023/day3_part1/day3_part1.go)&emsp;[two](2023/day3_part2/day3_part2.go)
 - ✅&emsp;Day 4: Scratchcards&emsp;[one](2023/day4_part1/day4_part1.go)&emsp;[two](2023/day4_part2/day4_part2.go)
@@ -21,12 +21,12 @@ Completed: 7.5/25 (30%)
 # 2022
 Completed: 6/25 (24%)
 
-- ✅&emsp;Day 1: Calorie Counting&emsp;[one](2022/day1_part1/day1_part1.go)&emsp;[two](2022/day1_part1/day1_part2.go)
-- ✅&emsp;Day 2: Rock Paper Scissors&emsp;[one](2022/day2_part1/day2_part1.go)&emsp;[two](2022/day2_part1/day2_part2.go)
-- ✅&emsp;Day 3: Rucksack Reorganization&emsp;[one](2022/day3_part1/day3_part1.go)&emsp;[two](2022/day3_part1/day3_part2.go)
-- ✅&emsp;Day 4: Camp Cleanup&emsp;[one](2022/day4_part1/day4_part1.go)&emsp;[two](2022/day4_part1/day4_part2.go)
-- ✅&emsp;Day 5: Supply Stacks&emsp;[one](2022/day5_part1/day5_part1.go)&emsp;[two](2022/day5_part1/day5_part2.go)
-- ✅&emsp;Day 6: Tuning Trouble&emsp;[one](2022/day6_part1/day6_part1.go)&emsp;[two](2022/day6_part1/day6_part2.go)
+- ✅&emsp;Day 1: Calorie Counting&emsp;[one](2022/day1_part1/day1_part1.go)&emsp;[two](2022/day1_part2/day1_part2.go)
+- ✅&emsp;Day 2: Rock Paper Scissors&emsp;[one](2022/day2_part1/day2_part1.go)&emsp;[two](2022/day2_part2/day2_part2.go)
+- ✅&emsp;Day 3: Rucksack Reorganization&emsp;[one](2022/day3_part1/day3_part1.go)&emsp;[two](2022/day3_part2/day3_part2.go)
+- ✅&emsp;Day 4: Camp Cleanup&emsp;[one](2022/day4_part1/day4_part1.go)&emsp;[two](2022/day4_part2/day4_part2.go)
+- ✅&emsp;Day 5: Supply Stacks&emsp;[one](2022/day5_part1/day5_part1.go)&emsp;[two](2022/day5_part2/day5_part2.go)
+- ✅&emsp;Day 6: Tuning Trouble&emsp;[one](2022/day6_part1/day6_part1.go)&emsp;[two](2022/day6_part2/day6_part2.go)
 
 # 2021
 Completed: 6/25 (24%)
