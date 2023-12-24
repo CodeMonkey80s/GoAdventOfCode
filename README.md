@@ -28,6 +28,17 @@ Completed: 6/25 (24%)
 - ✅&emsp;Day 5: Supply Stacks&emsp;[one](2022/day5_part1/day5_part1.go)&emsp;[two](2022/day5_part1/day5_part2.go)
 - ✅&emsp;Day 6: Tuning Trouble&emsp;[one](2022/day6_part1/day6_part1.go)&emsp;[two](2022/day6_part1/day6_part2.go)
 
+# 2021
+Completed: 6/25 (24%)
+
+- ✅&emsp;Day 1: Sonar Sweep&emsp;[one](2021/day1_part1/day1_part1.go)&emsp;[two](2021/day1_part1/day1_part2.go)
+- ✅&emsp;Day 2: Dive!&emsp;[one](2021/day2_part1/day2_part1.go)&emsp;[two](2021/day2_part1/day2_part2.go)
+- ✅&emsp;Day 3: Binary Diagnostic&emsp;[one](2021/day3_part1/day3_part1.go)&emsp;[two](2021/day3_part1/day3_part2.go)
+- ✅&emsp;Day 4: Giant Squid&emsp;[one](2021/day4_part1/day4_part1.go)&emsp;[two](2021/day4_part1/day4_part2.go)
+- ✅&emsp;Day 5: Hydrothermal Venture&emsp;[one](2021/day5_part1/day5_part1.go)&emsp;[two](2021/day5_part1/day5_part2.go)
+- ✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part1/day6_part2.go)
+
+
 # Static Analysis
 
 Run `golangci-lint` command. There is a hidden configuration file for this tool inside root directory `.golangci.yml`.
