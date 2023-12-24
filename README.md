@@ -38,6 +38,25 @@ Completed: 6/25 (24%)
 - ✅&emsp;Day 5: Hydrothermal Venture&emsp;[one](2021/day5_part1/day5_part1.go)&emsp;[two](2021/day5_part1/day5_part2.go)
 - ✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part1/day6_part2.go)
 
+# 2020
+Completed: 2/25 (8%)
+
+- ✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part1/day1_part2.go)
+- ✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part1/day2_part2.go)
+
+# 2019
+Completed: 2/25 (8%)
+
+- ✅&emsp;Day 1: The Tyranny of the Rocket Equation&emsp;[one](2019/day1_part1/day1_part1.go)&emsp;[two](2019/day1_part1/day1_part2.go)
+- ✅&emsp;Day 2: 1202 Program Alarm&emsp;[one](2019/day2_part1/day2_part1.go)&emsp;[two](2019/day2_part1/day2_part2.go)
+
+# 2018
+Completed: 3/25 (12%)
+
+- ✅&emsp;Day 1: Chronal Calibration&emsp;[one](2018/day1_part1/day1_part1.go)&emsp;[two](2018/day1_part1/day1_part2.go)
+- ✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part1/day2_part2.go)
+- ✅&emsp;Day 3: No Matter How You Slice It&emsp;[one](2018/day3_part1/day3_part1.go)&emsp;[two](2018/day3_part1/day3_part2.go)
+
 
 # Static Analysis
 
