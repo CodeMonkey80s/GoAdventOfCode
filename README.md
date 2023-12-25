@@ -76,7 +76,7 @@ Completed: 7/25 (28%)
 - ✅&emsp;Day 5: How About a Nice Game of Chess?&emsp;[one](2016/day5_part1/day5_part1.go)&emsp;[two](2016/day5_part2/day5_part2.go)
 - ✅&emsp;Day 6: Signals And Noise&emsp;[one](2016/day6_part1/day6_part1.go)&emsp;[two](2016/day6_part2/day6_part2.go)
 - ☑️&emsp;Day 7: Internet Protocol Version 7&emsp;[one](2016/day7_part1/day7_part1.go)
-- 🔲&emsp;Day 8: Two-Factor Authentication
+- ✅&emsp;Day 8: Two-Factor Authentication&emsp;[one](2016/day8_part1/day8_part1.go)[two](2016/day8_part1/day8_part1.go)
 - ✅&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)[two](2016/day9_part2/day9_part2.go)
 
 # 2015
