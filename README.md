@@ -64,6 +64,7 @@ Completed: 3/25 (12%)
 - ✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
 - 🔲&emsp;Day 3: Spiral Memory&emsp;
 - ✅&emsp;Day 4: High-Entropy Passphrase&emsp;[one](2017/day4_part1/day4_part1.go)&emsp;[two](2017/day4_part2/day4_part2.go)
+- ✅&emsp;Day 5: A Maze of Twisty Trampolines, All Alike&emsp;[one](2017/day5_part1/day5_part1.go)&emsp;[two](2017/day5_part2/day5_part2.go)
 
 # 2016
 Completed: 5/25 (20%)
