@@ -67,7 +67,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 5: A Maze of Twisty Trampolines, All Alike&emsp;[one](2017/day5_part1/day5_part1.go)&emsp;[two](2017/day5_part2/day5_part2.go)
 
 # 2016
-Completed: 6/25 (24%)
+Completed: 7/25 (28%)
 
 - ✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
