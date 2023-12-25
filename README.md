@@ -75,6 +75,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 4: Security Through Obscurity&emsp;[one](2016/day4_part1/day4_part1.go)&emsp;[two](2016/day4_part2/day4_part2.go)
 - 🔲&emsp;Day 5: How About a Nice Game of Chess?
 - ✅&emsp;Day 6: Signals And Noise&emsp;[one](2016/day6_part1/day6_part1.go)&emsp;[two](2016/day6_part2/day6_part2.go)
+- ☑️&&emsp;Day 7: Internet Protocol Version 7&emsp;[one](2016/day7_part1/day7_part1.go)
 
 # 2015
 Completed: 15/25 (60%)
