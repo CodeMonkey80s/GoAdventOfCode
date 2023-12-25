@@ -80,7 +80,7 @@ Completed: 8/25 (32%)
 - ✅&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)&emsp;[two](2016/day9_part2/day9_part2.go)
 
 # 2015
-Completed: 15/25 (60%)
+Completed: 16/25 (64%)
 
 - ✅&emsp;Day 1: Not Quite Lisp&emsp;[one](2015/day1_part1/day1_part1.go)&emsp;[two](2015/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: I Was Told There Would Be No Math&emsp;[one](2015/day2_part1/day2_part1.go)&emsp;[two](2015/day2_part2/day2_part2.go)
