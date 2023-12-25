@@ -77,7 +77,7 @@ Completed: 6/25 (24%)
 - ✅&emsp;Day 6: Signals And Noise&emsp;[one](2016/day6_part1/day6_part1.go)&emsp;[two](2016/day6_part2/day6_part2.go)
 - ☑️&emsp;Day 7: Internet Protocol Version 7&emsp;[one](2016/day7_part1/day7_part1.go)
 - 🔲&emsp;Day 8: Two-Factor Authentication
-- ☑️&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)
+- ✅&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)[two](2016/day9_part2/day9_part2.go)
 
 # 2015
 Completed: 15/25 (60%)
