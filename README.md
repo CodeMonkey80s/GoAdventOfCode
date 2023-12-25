@@ -73,7 +73,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
 - ✅&emsp;Day 3: Squares With Three Sides&emsp;[one](2016/day3_part1/day3_part1.go)&emsp;[two](2016/day3_part2/day3_part2.go)
 - ✅&emsp;Day 4: Security Through Obscurity&emsp;[one](2016/day4_part1/day4_part1.go)&emsp;[two](2016/day4_part2/day4_part2.go)
-- 🔲&emsp;Day 5: How About a Nice Game of Chess?
+- ✅&emsp;Day 5: How About a Nice Game of Chess?&emsp;[one](2016/day5_part1/day5_part1.go)&emsp;[two](2016/day5_part2/day5_part2.go)
 - ✅&emsp;Day 6: Signals And Noise&emsp;[one](2016/day6_part1/day6_part1.go)&emsp;[two](2016/day6_part2/day6_part2.go)
 - ☑️&emsp;Day 7: Internet Protocol Version 7&emsp;[one](2016/day7_part1/day7_part1.go)
 
