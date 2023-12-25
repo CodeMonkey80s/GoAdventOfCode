@@ -15,7 +15,7 @@ func Test_getAnswer(t *testing.T) {
 	}{
 		{
 			Input:  lines,
-			Output: -1,
+			Output: 11658395076,
 		},
 	}
 	for _, tc := range testCases {
