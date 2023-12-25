@@ -31,13 +31,10 @@ type Player struct {
 //   S
 
 func (p *Player) Walk(s Step) {
-	dx := 0
-	dy := 0
 	p.updateFacing(s.Dir)
 	switch {
 	case p.Facing == 'N':
-		dx = 0
-		dy = -1
+		dy := -1
 		sy := p.Position.Y - 1
 		p.Position.Y += s.Length * dy
 		for y := sy; y >= p.Position.Y; y-- {
@@ -54,8 +51,7 @@ func (p *Player) Walk(s Step) {
 			}
 		}
 	case p.Facing == 'S':
-		dx = 0
-		dy = 1
+		dy := 1
 		sy := p.Position.Y + 1
 		p.Position.Y += s.Length * dy
 		for y := sy; y <= p.Position.Y; y++ {
@@ -72,8 +68,7 @@ func (p *Player) Walk(s Step) {
 			}
 		}
 	case p.Facing == 'W':
-		dx = -1
-		dy = 0
+		dx := -1
 		sx := p.Position.X - 1
 		p.Position.X += s.Length * dx
 		for x := sx; x >= p.Position.X; x-- {
@@ -90,8 +85,7 @@ func (p *Player) Walk(s Step) {
 			}
 		}
 	case p.Facing == 'E':
-		dx = 1
-		dy = 0
+		dx := 1
 		sx := p.Position.X + 1
 		p.Position.X += s.Length * dx
 		for x := sx; x <= p.Position.X; x++ {

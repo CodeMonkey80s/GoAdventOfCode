@@ -18,7 +18,7 @@ func getPassword(id string) string {
 		s := fmt.Sprintf("%x", hash)
 		if strings.HasPrefix(s, "00000") {
 			position := s[5] - '0'
-			if position < 0 || position > 7 {
+			if position > 7 {
 				n++
 				continue
 			}

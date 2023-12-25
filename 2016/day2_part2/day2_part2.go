@@ -62,9 +62,5 @@ func canMove(sx int, sy int) bool {
 		return false
 	}
 
-	if board[sy][sx] == '.' {
-		return false
-	}
-
-	return true
+	return board[sy][sx] != '.'
 }
