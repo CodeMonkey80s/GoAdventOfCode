@@ -80,7 +80,7 @@ Completed: 8/25 (32%)
 - ☑️&emsp;Day 7: Internet Protocol Version 7&emsp;[one](2016/day7_part1/day7_part1.go)
 - ✅&emsp;Day 8: Two-Factor Authentication&emsp;[one](2016/day8_part1/day8_part1.go)&emsp;[two](2016/day8_part1/day8_part1.go)
 - ✅&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)&emsp;[two](2016/day9_part2/day9_part2.go)
-- ☑️&emsp;Day 10: Balance Bots&emsp;[one](2016/day10_part1/day10_part1.go)
+- ✅&emsp;Day 10: Balance Bots&emsp;[one](2016/day10_part1/day10_part1.go)&emsp;[two](2016/day10_part2/day10_part2.go)
 
 # 2015
 Completed: 16/25 (64%)

@@ -88,7 +88,6 @@ func initialize(lines []string) {
 }
 
 func process(lines []string) {
-	i := 0
 	for {
 		for _, line := range lines {
 			parts := strings.Fields(line)
@@ -106,21 +105,19 @@ func process(lines []string) {
 				}
 				b2.receive(b1.giveHigherChip())
 				addToBin(out, b1.giveLowerChip())
-				listOfBots[n1] = b1
 				listOfBots[n2] = b2
 				delete(listOfBots, n1)
 			case parts[0] == "bot" && parts[5] == "output" && parts[10] == "output":
-				n := util.ConvertStringToInt(parts[1])
+				n1 := util.ConvertStringToInt(parts[1])
 				out1 := util.ConvertStringToInt(parts[6])
 				out2 := util.ConvertStringToInt(parts[11])
-				b := GetBot(n)
+				b := GetBot(n1)
 				if len(b.Chips) < 2 {
 					continue
 				}
 				addToBin(out1, b.giveLowerChip())
 				addToBin(out2, b.giveHigherChip())
-				listOfBots[n] = b
-				delete(listOfBots, n)
+				delete(listOfBots, n1)
 			case parts[0] == "bot" && parts[5] == "bot" && parts[10] == "bot":
 				n1 := util.ConvertStringToInt(parts[1])
 				n2 := util.ConvertStringToInt(parts[6])
@@ -133,7 +130,6 @@ func process(lines []string) {
 				}
 				b2.receive(b1.giveLowerChip())
 				b3.receive(b1.giveHigherChip())
-				listOfBots[n1] = b1
 				listOfBots[n2] = b2
 				listOfBots[n3] = b3
 				delete(listOfBots, n1)
@@ -144,7 +140,6 @@ func process(lines []string) {
 		if len(listOfBots) == 0 && botNumber != -1 {
 			break
 		}
-		i++
 	}
 }
 
