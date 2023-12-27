@@ -1,4 +1,4 @@
-package day4_part1
+package day4_part2
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ func Test_getAnswer(t *testing.T) {
 	}{
 		{
 			Input:  "172851-675869",
-			Output: 1660,
+			Output: 1135,
 		},
 	}
 	for _, tc := range testCases {
@@ -32,23 +32,19 @@ func Test_verify(t *testing.T) {
 		Output bool
 	}{
 		{
-			Input:  111111,
+			Input:  112233,
 			Output: true,
 		},
 		{
-			Input:  1234567,
-			Output: false,
+			Input:  111122,
+			Output: true,
 		},
 		{
-			Input:  12345,
-			Output: false,
+			Input:  112233,
+			Output: true,
 		},
 		{
-			Input:  223450,
-			Output: false,
-		},
-		{
-			Input:  123789,
+			Input:  123444,
 			Output: false,
 		},
 	}
