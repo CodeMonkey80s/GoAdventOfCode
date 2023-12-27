@@ -44,7 +44,7 @@ Completed: 2/25 (8%)
 - ✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
 - 🔲&emsp;Day 3: Toboggan Trajectory
-- ✅&emsp;Day 4: Passport Processing&emsp;[one](2020/day4_part1/day4_part1.go)
+-☑️&emsp;Day 4: Passport Processing&emsp;[one](2020/day4_part1/day4_part1.go)
 
 # 2019
 Completed: 4/25 (16%)
