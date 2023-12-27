@@ -69,8 +69,8 @@ func getAnswer(lines []string, value1 int, value2 int) int {
 	process(lines)
 
 	fmt.Println("BotNumber:", botNumber)
-	//fmt.Println("Output:", listOfBins[0][0]*listOfBins[1][0]*listOfBins[2][0])
-	util.PrintOrderedMap("listOfBins", listOfBins)
+	fmt.Println("Output:", listOfBins[0][0]*listOfBins[1][0]*listOfBins[2][0])
+	//util.PrintOrderedMap("listOfBins", listOfBins)
 	return botNumber
 }
 
@@ -144,7 +144,7 @@ func process(lines []string) {
 }
 
 func addToBin(n int, value int) {
-	fmt.Printf("Bin Number:%v, Value: %v\n", n, value)
+	//fmt.Printf("Bin Number:%v, Value: %v\n", n, value)
 	_, ok := listOfBins[n]
 	if !ok {
 		listOfBins[n] = make([]int, 0)
