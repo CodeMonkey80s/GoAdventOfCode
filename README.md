@@ -45,7 +45,7 @@ Completed: 2/25 (8%)
 - ✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
 
 # 2019
-Completed: 2/25 (8%)
+Completed: 3/25 (12%)
 
 - ✅&emsp;Day 1: The Tyranny of the Rocket Equation&emsp;[one](2019/day1_part1/day1_part1.go)&emsp;[two](2019/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: 1202 Program Alarm&emsp;[one](2019/day2_part1/day2_part1.go)&emsp;[two](2019/day2_part2/day2_part2.go)
