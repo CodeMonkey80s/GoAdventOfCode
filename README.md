@@ -62,14 +62,14 @@ Completed: 3/25 (12%)
 - ✅&emsp;Day 3: No Matter How You Slice It&emsp;[one](2018/day3_part1/day3_part1.go)&emsp;[two](2018/day3_part2/day3_part2.go)
 
 # 2017
-Completed: 4/25 (16%)
+Completed: 5/25 (20%)
 
 - ✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
 - ☑️&emsp;Day 3: Spiral Memory&emsp;[one](2017/day3_part1/day3_part1.go)
 - ✅&emsp;Day 4: High-Entropy Passphrase&emsp;[one](2017/day4_part1/day4_part1.go)&emsp;[two](2017/day4_part2/day4_part2.go)
 - ✅&emsp;Day 5: A Maze of Twisty Trampolines, All Alike&emsp;[one](2017/day5_part1/day5_part1.go)&emsp;[two](2017/day5_part2/day5_part2.go)
-- ☑️&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)
+- ✅&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)&emsp;[two](2017/day6_part2/day6_part2.go)
 
 # 2016
 Completed: 9/25 (36%)
