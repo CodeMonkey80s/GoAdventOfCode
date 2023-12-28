@@ -7,7 +7,7 @@ import (
 	"GoAdventOfCode/util"
 )
 
-func Test_getAnswer(t *testing.T) {
+func Test_howManyUnits(t *testing.T) {
 	var testCases = []struct {
 		Input  string
 		Output int

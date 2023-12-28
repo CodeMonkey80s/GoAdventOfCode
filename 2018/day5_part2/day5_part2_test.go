@@ -1,4 +1,4 @@
-package day5_part1
+package day5_part2
 
 import (
 	"fmt"
@@ -7,14 +7,14 @@ import (
 	"GoAdventOfCode/util"
 )
 
-func Test_howManyUnits(t *testing.T) {
+func Test_getAnswer(t *testing.T) {
 	var testCases = []struct {
 		Input  string
 		Output int
 	}{
 		{
 			Input:  "dabAcCaCBAcCcaDA",
-			Output: 10,
+			Output: 4,
 		},
 	}
 	lines := util.LoadInputFile("../inputs/day5_input.txt")
@@ -24,7 +24,7 @@ func Test_howManyUnits(t *testing.T) {
 	}{
 		{
 			Input:  lines[0],
-			Output: 11042,
+			Output: 6872,
 		},
 	}
 	testCases = append(testCases, testCase...)
