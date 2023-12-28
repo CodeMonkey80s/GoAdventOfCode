@@ -55,7 +55,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 4: Secure Container&emsp;[one](2019/day4_part1/day4_part1.go)&emsp;[two](2019/day4_part2/day4_part2.go)
 
 # 2018
-Completed: 3/25 (12%)
+Completed: 4/25 (16%)
 
 - ✅&emsp;Day 1: Chronal Calibration&emsp;[one](2018/day1_part1/day1_part1.go)&emsp;[two](2018/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part2/day2_part2.go)
