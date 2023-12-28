@@ -36,7 +36,7 @@ func Test_howManyTrees(t *testing.T) {
 	}{
 		{
 			Input:  lines,
-			Output: -1,
+			Output: 3521829480,
 		},
 	}
 	testCases = append(testCases, testCase...)
