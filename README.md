@@ -74,7 +74,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)&emsp;[two](2017/day6_part2/day6_part2.go)
 
 # 2016
-Completed: 9/25 (36%)
+Completed: 10/25 (40%)
 
 - ✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
