@@ -87,7 +87,7 @@ Completed: 9/25 (36%)
 - ✅&emsp;Day 9: Explosives in Cyberspace&emsp;[one](2016/day9_part1/day9_part1.go)&emsp;[two](2016/day9_part2/day9_part2.go)
 - ✅&emsp;Day 10: Balance Bots&emsp;[one](2016/day10_part1/day10_part1.go)&emsp;[two](2016/day10_part2/day10_part2.go)
 - 🔲&emsp;Day 11: Radioisotope Thermoelectric Generators
-- ☑️&emsp;Day 12: Leonardo's Monorail&emsp;[one](2016/day12_part1/day12_part1.go)
+- ✅&emsp;Day 12: Leonardo's Monorail&emsp;[one](2016/day12_part1/day12_part1.go)&emsp;[two](2016/day12_part2/day12_part2.go)
 
 # 2015
 Completed: 16/25 (64%)
