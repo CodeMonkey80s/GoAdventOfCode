@@ -89,7 +89,7 @@ Completed: 11/25 (44%)
 - 🔲&emsp;Day 11: Radioisotope Thermoelectric Generators
 - ✅&emsp;Day 12: Leonardo's Monorail&emsp;[one](2016/day12_part1/day12_part1.go)&emsp;[two](2016/day12_part2/day12_part2.go)
 - ✅&emsp;Day 13: A Maze of Twisty Little Cubicles&emsp;[one](2016/day13_part1/day13_part1.go)&emsp;[two](2016/day13_part2/day13_part2.go)
-- ☑️&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)
+- ✅&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)&emsp;[two](2016/day14_part2/day14_part2.go)
 
 # 2015
 Completed: 16/25 (64%)
