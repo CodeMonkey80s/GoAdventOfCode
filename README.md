@@ -88,6 +88,7 @@ Completed: 10/25 (40%)
 - ✅&emsp;Day 10: Balance Bots&emsp;[one](2016/day10_part1/day10_part1.go)&emsp;[two](2016/day10_part2/day10_part2.go)
 - 🔲&emsp;Day 11: Radioisotope Thermoelectric Generators
 - ✅&emsp;Day 12: Leonardo's Monorail&emsp;[one](2016/day12_part1/day12_part1.go)&emsp;[two](2016/day12_part2/day12_part2.go)
+- ☑️&emsp;Day 13: A Maze of Twisty Little Cubicles&emsp;[one](2016/day13_part1/day13_part1.go)
 
 # 2015
 Completed: 16/25 (64%)

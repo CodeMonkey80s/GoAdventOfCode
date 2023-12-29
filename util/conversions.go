@@ -28,6 +28,10 @@ func ConvertBinaryStringToInt(s string) int {
 	return int(val)
 }
 
+func ConvertIntToBinaryString(n int) string {
+	return strconv.FormatInt(int64(n), 2)
+}
+
 func ConvertByteToInt(s byte) int {
 	val, err := strconv.Atoi(string(s))
 	if err != nil {
