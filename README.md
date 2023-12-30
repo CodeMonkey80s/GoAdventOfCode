@@ -60,7 +60,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 1: Chronal Calibration&emsp;[one](2018/day1_part1/day1_part1.go)&emsp;[two](2018/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part2/day2_part2.go)
 - ✅&emsp;Day 3: No Matter How You Slice It&emsp;[one](2018/day3_part1/day3_part1.go)&emsp;[two](2018/day3_part2/day3_part2.go)
-- 🔲&emsp;Day 4: Repose Record
+- ☑️&emsp;Day 4: Repose Record&emsp;[one](2018/day4_part1/day4_part1.go)
 - ✅&emsp;Day 5: Alchemical Reduction&emsp;[one](2018/day5_part1/day5_part1.go)&emsp;[two](2018/day5_part2/day5_part2.go)
 
 # 2017
