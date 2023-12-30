@@ -7,12 +7,13 @@ import (
 )
 
 func LoadInputFile(s string) []string {
+	err := error(nil)
 	f, err := os.Open(s)
 	if err != nil {
 		log.Fatalf("Error: %s", err)
 	}
 	defer func(f *os.File) {
-		err := f.Close()
+		err = f.Close()
 		if err != nil {
 			panic(err)
 		}
