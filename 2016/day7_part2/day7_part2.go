@@ -4,7 +4,7 @@ func getAnswer(lines []string) int {
 	total := 0
 	for _, line := range lines {
 		listSupernet, listHypernet := getNets(line)
-		ok := isTLSSupported(listSupernet, listHypernet)
+		ok := isSSLSupported(listSupernet, listHypernet)
 		if ok {
 			total++
 		}
@@ -37,48 +37,23 @@ func getNets(line string) ([]string, []string) {
 	return listSupernet, listHypernet
 }
 
-func isTLSSupported(listSupernet []string, listHypernet []string) bool {
-
-	for _, s := range listHypernet {
-		if hasABBA(s) {
-			return false
-		}
-	}
-
-	valid := 0
-	for _, s := range listSupernet {
-		if hasABBA(s) {
-			valid++
-		}
-	}
-	if valid == 0 {
-		return false
-	}
-
-	return true
-}
-
-func hasABBA(s string) bool {
-	for i := 0; i < len(s)-3; i++ {
-		if s[i] == s[i+3] && s[i+1] == s[i+2] && s[i] != s[i+1] {
-			return true
-		}
-	}
-	return false
-}
-
-func hasABA(s string) bool {
+func getABAs(s string) ([]string, bool) {
+	abas := make([]string, 0)
+	found := false
 	for i := 0; i < len(s)-2; i++ {
 		if s[i] == s[i+2] && s[i] != s[i+1] {
-			return true
+			aba := string(s[i]) + string(s[i+1]) + string(s[i])
+			abas = append(abas, aba)
+			found = true
 		}
 	}
-	return false
+	return abas, found
 }
 
-func hasBAB(s string) bool {
+func hasBAB(s string, aba string) bool {
+	bab := string(aba[1]) + string(aba[0]) + string(aba[1])
 	for i := 0; i < len(s)-2; i++ {
-		if s[i] == s[i+2] && s[i+1] == s[i] {
+		if s[i] == bab[0] && s[i+1] == bab[1] && s[i+2] == bab[2] {
 			return true
 		}
 	}
@@ -86,6 +61,18 @@ func hasBAB(s string) bool {
 }
 
 func isSSLSupported(listSupernet []string, listHypernet []string) bool {
+	for _, sn := range listSupernet {
+		abas, ok := getABAs(sn)
+		if ok {
+			for _, aba := range abas {
+				for _, hn := range listHypernet {
+					if hasBAB(hn, aba) {
+						return true
+					}
+				}
+			}
+		}
+	}
 
 	return false
 }
