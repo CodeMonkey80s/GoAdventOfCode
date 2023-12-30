@@ -47,7 +47,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 4: Passport Processing&emsp;[one](2020/day4_part1/day4_part1.go)&emsp;[two](2020/day4_part2/day4_part2.go)
 
 # 2019
-Completed: 4/25 (16%)
+Completed: 5/25 (20%)
 
 - ✅&emsp;Day 1: The Tyranny of the Rocket Equation&emsp;[one](2019/day1_part1/day1_part1.go)&emsp;[two](2019/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: 1202 Program Alarm&emsp;[one](2019/day2_part1/day2_part1.go)&emsp;[two](2019/day2_part2/day2_part2.go)
