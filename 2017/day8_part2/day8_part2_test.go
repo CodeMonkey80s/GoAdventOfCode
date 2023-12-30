@@ -29,7 +29,7 @@ func Test_getAnswer(t *testing.T) {
 	}{
 		{
 			Input:  lines,
-			Output: -1,
+			Output: 6209,
 		},
 	}
 	testCases = append(testCases, testCase...)
