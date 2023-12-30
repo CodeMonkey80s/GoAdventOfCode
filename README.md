@@ -73,7 +73,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 5: A Maze of Twisty Trampolines, All Alike&emsp;[one](2017/day5_part1/day5_part1.go)&emsp;[two](2017/day5_part2/day5_part2.go)
 - ✅&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)&emsp;[two](2017/day6_part2/day6_part2.go)
 - 🔲&emsp;Day 7: Recursive Circus
-- ☑️&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)
+- ✅&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)&emsp;[two](2017/day8_part2/day8_part2.go)
 
 # 2016
 Completed: 12/25 (52%)

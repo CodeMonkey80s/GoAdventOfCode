@@ -1,4 +1,4 @@
-package day8_part1
+package day8_part2
 
 import (
 	"fmt"
@@ -14,6 +14,7 @@ func getAnswer(lines []string) int {
 
 	registers := make(Registers)
 
+	highestValue := 0
 	for _, line := range lines {
 
 		// 0    1         2    3  4    5     6
@@ -86,17 +87,15 @@ func getAnswer(lines []string) int {
 				registers[r1] -= v1
 			}
 		}
-	}
 
-	maxValue := 0
-	//printRegisters(registers)
-	for _, v := range registers {
-		if v > maxValue {
-			maxValue = v
+		for _, v := range registers {
+			if v > highestValue {
+				highestValue = v
+			}
 		}
 	}
 
-	return maxValue
+	return highestValue
 }
 
 func printRegisters(registers Registers) {
