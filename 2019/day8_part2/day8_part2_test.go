@@ -13,16 +13,13 @@ func Test_getAnswer(t *testing.T) {
 		Input  string
 		InputW int
 		InputH int
-		Output []string
+		Output string
 	}{
 		{
 			Input:  "0222112222120000",
 			InputW: 2,
 			InputH: 2,
-			Output: []string{
-				"01",
-				"01",
-			},
+			Output: "0222",
 		},
 	}
 	lines := util.LoadInputFile("../inputs/day8_input.txt")
@@ -30,16 +27,13 @@ func Test_getAnswer(t *testing.T) {
 		Input  string
 		InputW int
 		InputH int
-		Output []string
+		Output string
 	}{
 		{
 			Input:  lines[0],
 			InputW: 25,
 			InputH: 6,
-			Output: []string{
-				"xx",
-				"yy",
-			},
+			Output: "222122222222222221222222020220220222201212222222121120222212202222222222222222202222222222222222210222202222222201222222122022222022022222222222222212",
 		},
 	}
 	testCases = append(testCases, testCase...)

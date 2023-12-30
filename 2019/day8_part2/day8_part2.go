@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func getAnswer(input string, w int, h int) int {
+func getAnswer(input string, w int, h int) string {
 
 	layers := make([]string, 0)
 
@@ -19,8 +19,7 @@ func getAnswer(input string, w int, h int) int {
 	//printLayers(layers)
 	printDecodedLayers(layers, n, w, h)
 
-	ans := 0
-	return ans
+	return layers[0]
 }
 
 func printLayers(layers []string) {
