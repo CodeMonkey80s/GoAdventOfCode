@@ -64,7 +64,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 5: Alchemical Reduction&emsp;[one](2018/day5_part1/day5_part1.go)&emsp;[two](2018/day5_part2/day5_part2.go)
 
 # 2017
-Completed: 5/25 (20%)
+Completed: 6/25 (24%)
 
 - ✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
