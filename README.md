@@ -56,7 +56,7 @@ Completed: 4/25 (16%)
 - 🔲&emsp;Day 5: Sunny with a Chance of Asteroids
 - 🔲&emsp;Day 6: Universal Orbit Map
 - 🔲&emsp;Day 7: Amplification Circuit
-- ☑️&emsp;Day 8: Space Image Format&emsp;[one](2019/day8_part1/day8_part1.go)
+- ✅&emsp;Day 8: Space Image Format&emsp;[one](2019/day8_part1/day8_part1.go)&emsp;[two](2019/day8_part2/day8_part2.go)
 
 # 2018
 Completed: 5/25 (20%)
