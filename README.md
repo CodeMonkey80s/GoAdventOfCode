@@ -78,7 +78,6 @@ Completed: 6/25 (24%)
 - ✅&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)&emsp;[two](2017/day6_part2/day6_part2.go)
 - ☑️&emsp;Day 7: Recursive Circus&emsp;[one](2017/day7_part1/day7_part1.go)
 - ✅&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)&emsp;[two](2017/day8_part2/day8_part2.go)
-- ☑️&emsp;Day 9: Recursive Circus&emsp;[one](2017/day9_part1/day9_part1.go)
 
 # 2016
 Completed: 12/25 (52%)
