@@ -60,3 +60,16 @@ func IsNumber(s string) bool {
 	}
 	return true
 }
+
+func ConvertIntToLetters(n int) string {
+	result := ""
+	for n > 0 {
+		remainder := (n - 1) % 26
+		result = string(rune('A'+remainder)) + result
+		n = (n - 1) / 26
+	}
+	if n < 26 {
+		result = string(rune('A'+n)) + result
+	}
+	return result
+}

@@ -66,6 +66,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 3: No Matter How You Slice It&emsp;[one](2018/day3_part1/day3_part1.go)&emsp;[two](2018/day3_part2/day3_part2.go)
 - ✅&emsp;Day 4: Repose Record&emsp;[one](2018/day4_part1/day4_part1.go)&emsp;[two](2018/day4_part2/day4_part2.go)
 - ✅&emsp;Day 5: Alchemical Reduction&emsp;[one](2018/day5_part1/day5_part1.go)&emsp;[two](2018/day5_part2/day5_part2.go)
+- ☑️&emsp;Day 6: Chronal Coordinates&emsp;[one](2018/day6_part1/day6_part1.go)
 
 # 2017
 Completed: 6/25 (24%)

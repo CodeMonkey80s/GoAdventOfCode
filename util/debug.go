@@ -1,6 +1,7 @@
 package util
 
 import (
+	"cmp"
 	"fmt"
 	"slices"
 )
@@ -19,7 +20,7 @@ func PrintMap[T1 comparable, T2 any](name string, m map[T1]T2) {
 	}
 }
 
-func PrintOrderedMap[T1 int, T2 any](name string, m map[T1]T2) {
+func PrintOrderedMap[T1 cmp.Ordered, T2 any](name string, m map[T1]T2) {
 	fmt.Println("*** " + name + " ***")
 	keys := make([]T1, 0, len(m))
 	for k := range m {
@@ -28,6 +29,6 @@ func PrintOrderedMap[T1 int, T2 any](name string, m map[T1]T2) {
 	slices.Sort(keys)
 	fmt.Println(keys)
 	for _, v := range keys {
-		fmt.Printf("%v => \"%+v\"\n", v, m[v])
+		fmt.Printf("%s => \"%+v\"\n", v, m[v])
 	}
 }
