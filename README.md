@@ -122,6 +122,7 @@ Completed: 16/25 (64%)
 - ✅&emsp;Day 16: Aunt Sue&emsp;[one](2015/day16_part1/day16_part1.go)&emsp;[two](2015/day16_part2/day16_part2.go)
 - ✅&emsp;Day 17: No Such Thing as Too Much&emsp;[one](2015/day17_part1/day17_part1.go)&emsp;[two](2015/day17_part2/day17_part2.go)
 - ✅&emsp;Day 18: Like a GIF For Your Yard&emsp;[one](2015/day18_part1/day18_part1.go)&emsp;[two](2015/day18_part2/day18_part2.go)
+- ☑️&emsp;Day 19: Medicine for Rudolph&emsp;[one](2015/day19_part1/day19_part1.go)
 
 # Static Analysis
 
