@@ -46,6 +46,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 3: Toboggan Trajectory&emsp;[one](2020/day3_part1/day3_part1.go)&emsp;[two](2020/day3_part2/day3_part2.go)
 - ✅&emsp;Day 4: Passport Processing&emsp;[one](2020/day4_part1/day4_part1.go)&emsp;[two](2020/day4_part2/day4_part2.go)
 - ✅&emsp;Day 5: Binary Boarding&emsp;[one](2020/day5_part1/day5_part1.go)&emsp;[two](2020/day5_part2/day5_part2.go)
+- ☑️&emsp;Day 6: Custom Customs&emsp;[one](2020/day6_part1/day6_part1.go)
 
 # 2019
 Completed: 5/25 (20%)
