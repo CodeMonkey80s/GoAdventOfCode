@@ -6,6 +6,11 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
+# 2024
+Completed: 1/25 (4%)
+
+- ✅&emsp;Day 1: Historian Hysteria&emsp;[one](2024/day1_part1/day1_part1.go)&emsp;[two](2024/day1_part2/day1_part2.go)
+
 # 2023
 Completed: 7.5/25 (30%)
 
