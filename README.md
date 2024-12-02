@@ -108,7 +108,7 @@ Completed: 13/25 (52%)
 - ✅&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)&emsp;[two](2016/day14_part2/day14_part2.go)
 
 # 2015
-Completed: 16.5/25 (66%)
+Completed: 17/25 (68%)
 
 - ✅&emsp;Day 1: Not Quite Lisp&emsp;[one](2015/day1_part1/day1_part1.go)&emsp;[two](2015/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: I Was Told There Would Be No Math&emsp;[one](2015/day2_part1/day2_part1.go)&emsp;[two](2015/day2_part2/day2_part2.go)
@@ -122,7 +122,7 @@ Completed: 16.5/25 (66%)
 - 🔲&emsp;Day 10: Elves Look, Elves Say
 - ✅&emsp;Day 11: Corporate Policy&emsp;[one](2015/day11_part1/day11_part1.go)&emsp;[two](2015/day11_part2/day11_part2.go)
 - ✅&emsp;Day 12: JSAbacusFramework.io&emsp;[one](2015/day12_part1/day12_part1.go)&emsp;[two](2015/day12_part2/day12_part2.go)
-- 🔲&emsp;Day 13: Knights of the Dinner Table
+- ☑️&emsp;Day 13: Knights of the Dinner Table&emsp;[one](2015/day13_part1/day13_part1.go)
 - ✅&emsp;Day 14: Reindeer Olympics&emsp;[one](2015/day14_part1/day14_part1.go)&emsp;[two](2015/day14_part2/day14_part2.go)
 - ✅&emsp;Day 15: Science for Hungry People&emsp;[one](2015/day15_part1/day15_part1.go)&emsp;[two](2015/day15_part2/day15_part2.go)
 - ✅&emsp;Day 16: Aunt Sue&emsp;[one](2015/day16_part1/day16_part1.go)&emsp;[two](2015/day16_part2/day16_part2.go)
