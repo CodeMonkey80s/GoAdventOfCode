@@ -67,7 +67,7 @@ Completed: 5/25 (20%)
 - ✅&emsp;Day 8: Space Image Format&emsp;[one](2019/day8_part1/day8_part1.go)&emsp;[two](2019/day8_part2/day8_part2.go)
 
 # 2018
-Completed: 6/25 (24%)
+Completed: 6.5/25 (26%)
 
 - ✅&emsp;Day 1: Chronal Calibration&emsp;[one](2018/day1_part1/day1_part1.go)&emsp;[two](2018/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part2/day2_part2.go)
@@ -78,7 +78,7 @@ Completed: 6/25 (24%)
 - ☑️&emsp;Day 7: The Sum of Its Parts&emsp;[one](2018/day7_part1/day7_part1.go)
 
 # 2017
-Completed: 6/25 (24%)
+Completed: 7/25 (28%)
 
 - ✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
@@ -90,7 +90,7 @@ Completed: 6/25 (24%)
 - ✅&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)&emsp;[two](2017/day8_part2/day8_part2.go)
 
 # 2016
-Completed: 12/25 (52%)
+Completed: 13/25 (52%)
 
 - ✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
@@ -108,7 +108,7 @@ Completed: 12/25 (52%)
 - ✅&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)&emsp;[two](2016/day14_part2/day14_part2.go)
 
 # 2015
-Completed: 16/25 (64%)
+Completed: 16.5/25 (66%)
 
 - ✅&emsp;Day 1: Not Quite Lisp&emsp;[one](2015/day1_part1/day1_part1.go)&emsp;[two](2015/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: I Was Told There Would Be No Math&emsp;[one](2015/day2_part1/day2_part1.go)&emsp;[two](2015/day2_part2/day2_part2.go)
