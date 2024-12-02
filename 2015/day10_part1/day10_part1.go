@@ -19,8 +19,7 @@ func getAnswer(input string) int {
 }
 
 func lookAndSay(input string) string {
-	buf := bytes.Buffer{}
-
+	var buf bytes.Buffer
 	var char uint8
 	var count int
 

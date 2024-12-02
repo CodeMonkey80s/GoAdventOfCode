@@ -129,6 +129,7 @@ Completed: 19.5/25 (78%)
 - ✅&emsp;Day 17: No Such Thing as Too Much&emsp;[one](2015/day17_part1/day17_part1.go)&emsp;[two](2015/day17_part2/day17_part2.go)
 - ✅&emsp;Day 18: Like a GIF For Your Yard&emsp;[one](2015/day18_part1/day18_part1.go)&emsp;[two](2015/day18_part2/day18_part2.go)
 - ☑️&emsp;Day 19: Medicine for Rudolph&emsp;[one](2015/day19_part1/day19_part1.go)
+- ✅&emsp;Day 20: Infinite Elves and Infinite Houses&emsp;[one](2015/day20_part1/day20_part1.go)&emsp;[two](2015/day20_part2/day20_part2.go)
 
 # Static Analysis
 
