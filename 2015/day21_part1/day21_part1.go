@@ -158,6 +158,17 @@ var rings = []Item{
 	},
 }
 
+/*
+
+	 0  1  2  3  4  5  6
+	12 13 14 15 16 21 23 24 25 26 34 35 36 45 46 56
+	123
+	124
+	125
+	126
+
+*/
+
 func getAnswer(player Warrior, boss Warrior) int {
 
 	ringsIds := []int{0, 1, 2, 3, 4, 5, 6}

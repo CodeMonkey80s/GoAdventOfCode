@@ -1,4 +1,4 @@
-package day3_part
+package day3_part1
 
 import (
 	"regexp"
