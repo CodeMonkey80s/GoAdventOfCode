@@ -133,6 +133,8 @@ Completed: 20.5/25 (82%)
 - ☑️&emsp;Day 19: Medicine for Rudolph&emsp;[one](2015/day19_part1/day19_part1.go)
 - ✅&emsp;Day 20: Infinite Elves and Infinite Houses&emsp;[one](2015/day20_part1/day20_part1.go)&emsp;[two](2015/day20_part2/day20_part2.go)
 - ✅&emsp;Day 21: RPG Simulator 20XX&emsp;[one](2015/day21_part1/day21_part1.go)&emsp;[two](2015/day21_part2/day21_part2.go)
+- 🔲&emsp;Day 22: Wizard Simulator 20XX
+- ✅&emsp;Day 23: Opening the Turing Lock&emsp;[one](2015/day23_part1/day23_part1.go)&emsp;[two](2015/day23_part2/day23_part2.go)
 
 # Static Analysis
 
