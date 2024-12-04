@@ -7,7 +7,7 @@
 Repository with my solutions to **Advent Of Code** problems.
 
 # 2024
-Completed: 3/25 (12%)
+Completed: 4/25 (16%)
 
 - ✅&emsp;Day 1: Historian Hysteria&emsp;[one](2024/day1_part1/day1_part1.go)&emsp;[two](2024/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Red-Nosed Reports&emsp;[one](2024/day2_part1/day2_part1.go)&emsp;[two](2024/day2_part2/day2_part2.go)
@@ -110,7 +110,7 @@ Completed: 13/25 (52%)
 - ✅&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)&emsp;[two](2016/day14_part2/day14_part2.go)
 
 # 2015
-Completed: 20.5/25 (82%)
+Completed: 21.5/25 (86%)
 
 - ✅&emsp;Day 1: Not Quite Lisp&emsp;[one](2015/day1_part1/day1_part1.go)&emsp;[two](2015/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: I Was Told There Would Be No Math&emsp;[one](2015/day2_part1/day2_part1.go)&emsp;[two](2015/day2_part2/day2_part2.go)
