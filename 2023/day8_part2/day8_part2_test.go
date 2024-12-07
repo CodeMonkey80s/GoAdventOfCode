@@ -1,9 +1,14 @@
 package day8_part2
 
-//var testCases []struct {
+import (
+	"fmt"
+	"testing"
+)
+
+// var testCases []struct {
 //	Input  []string
 //	Output int
-//}
+// }
 
 var testCases = []struct {
 	Input  []string
@@ -27,27 +32,28 @@ var testCases = []struct {
 }
 
 func init() {
-	//lines := util.LoadInputFile("../inputs/day8_input.txt")
-	//testCase := []struct {
+	// lines := util.LoadInputFile("../inputs/day8_input.txt")
+	// testCase := []struct {
 	//	Input  []string
 	//	Output int
-	//}{
+	// }{
 	//	{
 	//		Input:  lines,
 	//		Output: 28,
 	//	},
-	//}
-	//testCases = append(testCases, testCase...)
+	// }
+	// testCases = append(testCases, testCase...)
 }
 
-//func Test_howManySteps(t *testing.T) {
-//	for _, tc := range testCases {
-//		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input[0], tc.Output)
-//		t.Run(label, func(t *testing.T) {
-//			output := howManyStepsNodesEnd(tc.Input)
-//			if output != tc.Output {
-//				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
-//			}
-//		})
-//	}
-//}
+func Test_howManySteps(t *testing.T) {
+	t.SkipNow()
+	for _, tc := range testCases {
+		label := fmt.Sprintf("Case: Input: %v Output: %v\n", tc.Input[0], tc.Output)
+		t.Run(label, func(t *testing.T) {
+			output := howManyStepsNodesEnd(tc.Input)
+			if output != tc.Output {
+				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
+			}
+		})
+	}
+}

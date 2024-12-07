@@ -29,6 +29,6 @@ func PrintOrderedMap[T1 cmp.Ordered, T2 any](name string, m map[T1]T2) {
 	slices.Sort(keys)
 	fmt.Println(keys)
 	for _, v := range keys {
-		fmt.Printf("%s => \"%+v\"\n", v, m[v])
+		fmt.Printf("%v => \"%+v\"\n", v, m[v])
 	}
 }
