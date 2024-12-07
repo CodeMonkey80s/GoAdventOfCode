@@ -13,6 +13,7 @@ Completed: 4/25 (16%)
 - ✅&emsp;Day 2: Red-Nosed Reports&emsp;[one](2024/day2_part1/day2_part1.go)&emsp;[two](2024/day2_part2/day2_part2.go)
 - ✅&emsp;Day 3: Mull It Over&emsp;[one](2024/day3_part1/day3_part1.go)&emsp;[two](2024/day3_part2/day3_part2.go)
 - ✅&emsp;Day 4: Ceres Search&emsp;[one](2024/day4_part1/day4_part1.go)&emsp;[two](2024/day4_part2/day4_part2.go)
+- ✅&emsp;Day 5: Print Queue&emsp;[one](2024/day5_part1/day5_part1.go)&emsp;[two](2024/day5_part2/day5_part2.go)
 
 # 2023
 Completed: 7.5/25 (30%)
