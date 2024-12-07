@@ -28,8 +28,6 @@ outer:
 			if val == total {
 				sum += total
 				continue outer
-				// fmt.Printf("sum: %s\n", sum.String())
-				// fmt.Printf("max: %d\n", uint64(math.MaxUint64))
 			}
 		}
 
