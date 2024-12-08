@@ -16,7 +16,7 @@ Completed: 7/25 (28%)
 - ✅&emsp;Day 5: Print Queue&emsp;[one](2024/day5_part1/day5_part1.go)&emsp;[two](2024/day5_part2/day5_part2.go)
 - ✅&emsp;Day 6: Guard Gallivant&emsp;[one](2024/day6_part1/day6_part1.go)&emsp;[two](2024/day6_part2/day6_part2.go)
 - ✅&emsp;Day 7: Bridge Repair&emsp;[one](2024/day7_part1/day7_part1.go)&emsp;[two](2024/day7_part2/day7_part2.go)
-- ☑️&emsp;Day 8: Resonant Collinearity&emsp;[one](2024/day8_part1/day8_part1.go)
+- ✅&emsp;Day 8: Resonant Collinearity&emsp;[one](2024/day8_part1/day8_part1.go)&emsp;[two](2024/day8_part2/day8_part2.go)
 
 # 2023
 Completed: 7.5/25 (30%)
