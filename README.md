@@ -7,7 +7,7 @@
 Repository with my solutions to **Advent Of Code** problems.
 
 # 2024
-Completed: 8/25 (32%)
+Completed: 9/25 (36%)
 
 - ✅&emsp;Day 1: Historian Hysteria&emsp;[one](2024/day1_part1/day1_part1.go)&emsp;[two](2024/day1_part2/day1_part2.go)
 - ✅&emsp;Day 2: Red-Nosed Reports&emsp;[one](2024/day2_part1/day2_part1.go)&emsp;[two](2024/day2_part2/day2_part2.go)
@@ -17,7 +17,7 @@ Completed: 8/25 (32%)
 - ✅&emsp;Day 6: Guard Gallivant&emsp;[one](2024/day6_part1/day6_part1.go)&emsp;[two](2024/day6_part2/day6_part2.go)
 - ✅&emsp;Day 7: Bridge Repair&emsp;[one](2024/day7_part1/day7_part1.go)&emsp;[two](2024/day7_part2/day7_part2.go)
 - ✅&emsp;Day 8: Resonant Collinearity&emsp;[one](2024/day8_part1/day8_part1.go)&emsp;[two](2024/day8_part2/day8_part2.go)
-- ☑️&emsp;Day 9: Disk Fragmenter&emsp;[one](2024/day9_part1/day9_part1.go)
+- ✅&emsp;Day 9: Disk Fragmenter&emsp;[one](2024/day9_part1/day9_part1.go)&emsp;[two](2024/day9_part2/day9_part2.go)
 
 # 2023
 Completed: 7.5/25 (30%)

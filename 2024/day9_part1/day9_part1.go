@@ -5,8 +5,6 @@ import (
 )
 
 const (
-	charEmpty = '.'
-
 	emptySpace = -1
 )
 
