@@ -18,6 +18,7 @@ Completed: 9/25 (36%)
 - ✅&emsp;Day 7: Bridge Repair&emsp;[one](2024/day7_part1/day7_part1.go)&emsp;[two](2024/day7_part2/day7_part2.go)
 - ✅&emsp;Day 8: Resonant Collinearity&emsp;[one](2024/day8_part1/day8_part1.go)&emsp;[two](2024/day8_part2/day8_part2.go)
 - ✅&emsp;Day 9: Disk Fragmenter&emsp;[one](2024/day9_part1/day9_part1.go)&emsp;[two](2024/day9_part2/day9_part2.go)
+- ☑️&emsp;Day 10: Hoof It&emsp;[one](2024/day10_part1/day10_part1.go)
 
 # 2023
 Completed: 7.5/25 (30%)
