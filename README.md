@@ -19,6 +19,7 @@ Completed: 10/25 (40%)
 - ✅&emsp;Day 8: Resonant Collinearity&emsp;[one](2024/day8_part1/day8_part1.go)&emsp;[two](2024/day8_part2/day8_part2.go)
 - ✅&emsp;Day 9: Disk Fragmenter&emsp;[one](2024/day9_part1/day9_part1.go)&emsp;[two](2024/day9_part2/day9_part2.go)
 - ✅&emsp;Day 10: Hoof It&emsp;[one](2024/day10_part1/day10_part1.go)&emsp;[two](2024/day10_part2/day10_part2.go)
+- ✅&emsp;Day 11: Plutonian Pebbles&emsp;[one](2024/day11_part1/day11_part1.go)&emsp;[two](2024/day11_part2/day11_part2.go)
 
 # 2023
 Completed: 7.5/25 (30%)
