@@ -21,6 +21,8 @@ Completed: 11/25 (44%)
 - ✅&emsp;Day 10: Hoof It&emsp;[one](2024/day10_part1/day10_part1.go)&emsp;[two](2024/day10_part2/day10_part2.go)
 - ✅&emsp;Day 11: Plutonian Pebbles&emsp;[one](2024/day11_part1/day11_part1.go)&emsp;[two](2024/day11_part2/day11_part2.go)
 - ☑️&emsp;Day 12: Garden Groups&emsp;[one](2024/day12_part1/day12_part1.go)
+- 🔲&emsp;Day 13: Garden Group
+- ☑️&emsp;Day 14: Restroom Redoubt&emsp;[one](2024/day14_part1/day14_part1.go)
 
 # 2023
 Completed: 7.5/25 (30%)
