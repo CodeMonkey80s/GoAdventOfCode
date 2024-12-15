@@ -50,6 +50,7 @@ func Test_getAnswer(t *testing.T) {
 			InputC: 103,
 			InputD: 100,
 			Output: 225943500,
+			// Output: 6377,
 		},
 	}
 	testCases = append(testCases, testCase...)
