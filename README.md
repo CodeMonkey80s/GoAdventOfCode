@@ -28,7 +28,7 @@ Completed: 27/50 (54%)
 - ✅🔲&emsp;Day 17: Chronospatial Computer&emsp;[one](2024/day17_part1/day17_part1.go)
 
 # 2023
-Completed: 15/50 (30%)
+Completed: 16/50 (32%)
 
 - ✅✅&emsp;Day 1: Trebuchet?!&emsp;[one](2023/day1_part1/day1_part1.go)&emsp;[two](2023/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Cube Conundrum&emsp;[one](2023/day2_part1/day2_part1.go)&emsp;[two](2023/day2_part2/day2_part2.go)
@@ -38,6 +38,12 @@ Completed: 15/50 (30%)
 - ✅✅&emsp;Day 6: Wait For It&emsp;[one](2023/day6_part1/day6_part1.go)&emsp;[two](2023/day6_part2/day6_part2.go)
 - ✅✅&emsp;Day 7: Camel Cards&emsp;[one](2023/day7_part1/day7_part1.go)&emsp;[two](2023/day7_part2/day7_part2.go)
 - ✅🔲&emsp;Day 8: Haunted Wasteland&emsp;[one](2023/day7_part1/day7_part1.go)
+- 🔲🔲&emsp;Day 9: Mirage Maintenance
+- 🔲🔲&emsp;Day 10: Pipe Maze 
+- 🔲🔲&emsp;Day 11: Cosmic Expansion 
+- 🔲🔲&emsp;Day 12: Hot Springs 
+- 🔲🔲&emsp;Day 13: Point of Incidence 
+- ✅🔲&emsp;Day 14: Parabolic Reflector Dish&emsp;[one](2023/day14_part1/day14_part1.go)
 
 # 2022
 Completed: 12/50 (24%)
