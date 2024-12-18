@@ -55,7 +55,7 @@ Completed: 13/50 (26%)
 - ✅✅&emsp;Day 5: Supply Stacks&emsp;[one](2022/day5_part1/day5_part1.go)&emsp;[two](2022/day5_part2/day5_part2.go)
 - ✅✅&emsp;Day 6: Tuning Trouble&emsp;[one](2022/day6_part1/day6_part1.go)&emsp;[two](2022/day6_part2/day6_part2.go)
 - 🔲🔲&emsp;Day 7: No Space Left On Device 
-- ✅🔲&emsp;Day 8: Treetop Tree House&emsp;[one](2023/day8_part1/day8_part1.go)
+- ✅🔲&emsp;Day 8: Treetop Tree House&emsp;[one](2022/day8_part1/day8_part1.go)
 
 # 2021
 Completed: 12/50 (24%)
