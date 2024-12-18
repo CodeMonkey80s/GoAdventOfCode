@@ -82,7 +82,7 @@ Completed: 10/50 (20%)
 - ✅✅&emsp;Day 8: Space Image Format&emsp;[one](2019/day8_part1/day8_part1.go)&emsp;[two](2019/day8_part2/day8_part2.go)
 
 # 2018
-Completed: 13/50 (26%)
+Completed: 15/50 (30%)
 
 - ✅✅&emsp;Day 1: Chronal Calibration&emsp;[one](2018/day1_part1/day1_part1.go)&emsp;[two](2018/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Inventory Management System&emsp;[one](2018/day2_part1/day2_part1.go)&emsp;[two](2018/day2_part2/day2_part2.go)
@@ -91,6 +91,9 @@ Completed: 13/50 (26%)
 - ✅✅&emsp;Day 5: Alchemical Reduction&emsp;[one](2018/day5_part1/day5_part1.go)&emsp;[two](2018/day5_part2/day5_part2.go)
 - ✅✅&emsp;Day 6: Chronal Coordinates&emsp;[one](2018/day6_part1/day6_part1.go)&emsp;[two](2018/day6_part2/day6_part2.go)
 - ✅🔲&emsp;Day 7: The Sum of Its Parts&emsp;[one](2018/day7_part1/day7_part1.go)
+- 🔲🔲&emsp;Day 8: Memory Maneuver
+- 🔲🔲&emsp;Day 9: Marble Mania 
+- ✅✅&emsp;Day 10: The Stars Align&emsp;[one](2018/day10_part1/day10_part1.go)&emsp;[two](2018/day10_part1/day10_part1.go)
 
 # 2017
 Completed: 7/25 (28%)
