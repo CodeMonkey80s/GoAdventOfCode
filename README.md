@@ -105,7 +105,7 @@ Completed: 7/25 (28%)
 - ✅✅&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)&emsp;[two](2017/day8_part2/day8_part2.go)
 
 # 2016
-Completed: 27/50 (54%)
+Completed: 28/50 (56%)
 
 - ✅✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
@@ -124,7 +124,7 @@ Completed: 27/50 (54%)
 - 🔲🔲&emsp;Day 15: Timing is Everything 
 - 🔲🔲&emsp;Day 16: Dragon Checksum 
 - 🔲🔲&emsp;Day 17: Two Steps Forward 
-- ✅🔲&emsp;Day 18: Like a Rogue&emsp;[one](2016/day18_part1/day18_part1.go)
+- ✅✅&emsp;Day 18: Like a Rogue&emsp;[one](2016/day18_part1/day18_part1.go)&emsp;[two](2016/day18_part2/day18_part2.go)
 
 # 2015
 Completed: 43/50 (86%)
