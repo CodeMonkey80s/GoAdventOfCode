@@ -46,7 +46,7 @@ Completed: 16/50 (32%)
 - ✅🔲&emsp;Day 14: Parabolic Reflector Dish&emsp;[one](2023/day14_part1/day14_part1.go)
 
 # 2022
-Completed: 13/50 (26%)
+Completed: 14/50 (28%)
 
 - ✅✅&emsp;Day 1: Calorie Counting&emsp;[one](2022/day1_part1/day1_part1.go)&emsp;[two](2022/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Rock Paper Scissors&emsp;[one](2022/day2_part1/day2_part1.go)&emsp;[two](2022/day2_part2/day2_part2.go)
@@ -55,7 +55,7 @@ Completed: 13/50 (26%)
 - ✅✅&emsp;Day 5: Supply Stacks&emsp;[one](2022/day5_part1/day5_part1.go)&emsp;[two](2022/day5_part2/day5_part2.go)
 - ✅✅&emsp;Day 6: Tuning Trouble&emsp;[one](2022/day6_part1/day6_part1.go)&emsp;[two](2022/day6_part2/day6_part2.go)
 - 🔲🔲&emsp;Day 7: No Space Left On Device 
-- ✅🔲&emsp;Day 8: Treetop Tree House&emsp;[one](2022/day8_part1/day8_part1.go)
+- ✅✅&emsp;Day 8: Treetop Tree House&emsp;[one](2022/day8_part1/day8_part1.go)&emsp;[two](2022/day8_part2/day8_part2.go)
 
 # 2021
 Completed: 12/50 (24%)
