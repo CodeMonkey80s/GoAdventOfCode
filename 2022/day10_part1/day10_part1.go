@@ -6,38 +6,20 @@ import (
 	"GoAdventOfCode/util"
 )
 
-type op struct {
-	t int
-	v int
+type operation struct {
+	op string
+	v  int
 }
 
-func getAnswer(input []string) int {
+func getAnswer(input []string, maxCycles int) (int, int) {
 
-	x := 1
 	signal := 0
-	cycle := 0
+	register := 1
 
-	a := false
-	t := 0
-	v := 0
+	operations := loadOperations(input)
 
-	idx := 0
-
-loop:
-	for {
-
-		cycle++
-
-		if a && t > 0 {
-			t--
-		}
-
-		if a && t == 0 {
-			a = false
-			x += v
-			v = 0
-			t = 0
-		}
+	for i, op := range operations {
+		cycle := i + 1
 
 		switch {
 		case cycle == 20:
@@ -51,41 +33,47 @@ loop:
 		case cycle == 180:
 			fallthrough
 		case cycle == 220:
-			// fmt.Printf("cycle: %d, x: %d\n", cycle, x)
-			signal += cycle * x
+			s := cycle * register
+			signal += s
+			// fmt.Printf("period: %d, %d, signal: %d\n", cycle, register, s)
 		}
 
-		if a == true {
-			continue loop
+		switch op.op {
+		case "noop":
+		case "addx":
+			register += op.v
 		}
 
-		operation := getOperation(input, idx)
-		parts := strings.Fields(operation)
-		// fmt.Printf("cycle: %d, op: %q\n", cycle, opCode)
-		if operation == "" {
-			break loop
-		}
-		opCode := parts[0]
-		switch {
-		case opCode == "addx" && a == false:
-			a = true
-			t = 2
-			v = util.ConvertStringToInt(parts[1])
-			idx++
-		case opCode == "noop":
-			idx++
-		}
+		// fmt.Printf("cycle: %d, op: %v, register: %d\n", cycle, op, register)
 
 	}
 
-	// fmt.Printf("x: %d\n", x)
-
-	return signal
+	return signal, register
 }
 
-func getOperation(input []string, op int) string {
-	if op >= len(input) {
-		return ""
+func loadOperations(input []string) []operation {
+	var operations []operation
+	for _, line := range input {
+		parts := strings.Fields(line)
+		code := parts[0]
+		switch {
+		case code == "addx":
+			op1 := operation{
+				op: "noop",
+			}
+			operations = append(operations, op1)
+			op2 := operation{
+				op: "addx",
+				v:  util.ConvertStringToInt(parts[1]),
+			}
+			operations = append(operations, op2)
+		case code == "noop":
+			op := operation{
+				op: "noop",
+			}
+			operations = append(operations, op)
+		}
 	}
-	return input[op]
+
+	return operations
 }

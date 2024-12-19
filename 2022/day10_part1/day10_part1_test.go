@@ -9,17 +9,38 @@ import (
 
 func Test_getAnswer(t *testing.T) {
 	var testCases = []struct {
-		Input  []string
-		Output int
+		Input       []string
+		InputCycles int
+		Output      int
+		OutputX     int
 	}{
-		// {
-		// 	Input: []string{
-		// 		"noop",
-		// 		"addx 3",
-		// 		"addx -5",
-		// 	},
-		// 	Output: 0,
-		// },
+		{
+			Input: []string{
+				"noop   ",
+				"addx 3 ",
+				"addx -5",
+			},
+			InputCycles: 5,
+			Output:      0,
+			OutputX:     -1,
+		},
+		{
+			Input: []string{
+				"addx 15",
+				"addx -11",
+				"addx 6",
+				"addx -3",
+				"addx 5",
+				"addx -1",
+				"addx -8",
+				"addx 13",
+				"addx 4",
+				"noop",
+			},
+			InputCycles: 20,
+			Output:      0,
+			OutputX:     21,
+		},
 		{
 			Input: []string{
 				"addx 15",
@@ -169,27 +190,37 @@ func Test_getAnswer(t *testing.T) {
 				"noop",
 				"noop",
 			},
-			Output: 13140,
+			Output:      13140,
+			OutputX:     17,
+			InputCycles: 240,
 		},
 	}
 	lines := util.LoadInputFile("../inputs/day10_input.txt")
 	testCase := []struct {
-		Input  []string
-		Output int
+		Input       []string
+		InputCycles int
+		Output      int
+		OutputX     int
 	}{
 		{
-			Input:  lines,
-			Output: 15220,
+			Input:       lines,
+			Output:      15220,
+			OutputX:     22,
+			InputCycles: 221,
 		},
 	}
 	testCases = append(testCases, testCase...)
 	for _, tc := range testCases {
 		label := fmt.Sprintf("%v\n", "Puzzle Input")
 		t.Run(label, func(t *testing.T) {
-			output := getAnswer(tc.Input)
-
-			if output != tc.Output {
-				t.Errorf("Expected output to be '%d' but we got '%d'", tc.Output, output)
+			output, x := getAnswer(tc.Input, tc.InputCycles)
+			if x != tc.OutputX {
+				t.Errorf("Expected output of x to be '%d' but we got '%d'", tc.OutputX, x)
+			}
+			if tc.Output > 0 {
+				if output != tc.Output {
+					t.Errorf("Expected output to be '%d' but we got '%d'", tc.Output, output)
+				}
 			}
 		})
 	}
