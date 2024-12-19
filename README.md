@@ -46,7 +46,7 @@ Completed: 16/50 (32%)
 - ✅🔲&emsp;Day 14: Parabolic Reflector Dish&emsp;[one](2023/day14_part1/day14_part1.go)
 
 # 2022
-Completed: 15/50 (30%)
+Completed: 16/50 (32%)
 
 - ✅✅&emsp;Day 1: Calorie Counting&emsp;[one](2022/day1_part1/day1_part1.go)&emsp;[two](2022/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Rock Paper Scissors&emsp;[one](2022/day2_part1/day2_part1.go)&emsp;[two](2022/day2_part2/day2_part2.go)
