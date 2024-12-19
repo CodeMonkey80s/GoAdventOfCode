@@ -70,7 +70,7 @@ Completed: 12/50 (24%)
 - ✅✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part2/day6_part2.go)
 
 # 2020
-Completed: 12/50 (24%)
+Completed: 13/50 (26%)
 
 - ✅✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
@@ -78,6 +78,13 @@ Completed: 12/50 (24%)
 - ✅✅&emsp;Day 4: Passport Processing&emsp;[one](2020/day4_part1/day4_part1.go)&emsp;[two](2020/day4_part2/day4_part2.go)
 - ✅✅&emsp;Day 5: Binary Boarding&emsp;[one](2020/day5_part1/day5_part1.go)&emsp;[two](2020/day5_part2/day5_part2.go)
 - ✅✅&emsp;Day 6: Custom Customs&emsp;[one](2020/day6_part1/day6_part1.go)&emsp;[two](2020/day6_part2/day6_part2.go)
+- 🔲🔲&emsp;Day 7: Handy Haversacks 
+- 🔲🔲&emsp;Day 8: Handheld Halting 
+- 🔲🔲&emsp;Day 8: Encoding Error 
+- 🔲🔲&emsp;Day 9: Encoding Error
+- 🔲🔲&emsp;Day 10: Adapter Array 
+- 🔲🔲&emsp;Day 11: Seating System 
+- ✅🔲&emsp;Day 12: Rain Risk&emsp;[one](2020/day12_part1/day12_part1.go)
 
 # 2019
 Completed: 10/50 (20%)
