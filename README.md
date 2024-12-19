@@ -57,6 +57,7 @@ Completed: 15/50 (30%)
 - 🔲🔲&emsp;Day 7: No Space Left On Device 
 - ✅✅&emsp;Day 8: Treetop Tree House&emsp;[one](2022/day8_part1/day8_part1.go)&emsp;[two](2022/day8_part2/day8_part2.go)
 - ✅🔲&emsp;Day 9: Rope Bridge&emsp;[one](2022/day9_part1/day9_part1.go)
+- ✅🔲&emsp;Day 10: Cathode-Ray Tube&emsp;[one](2022/day10_part1/day10_part1.go)
 
 # 2021
 Completed: 12/50 (24%)
