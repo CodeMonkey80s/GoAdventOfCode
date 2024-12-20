@@ -15,11 +15,11 @@ Repository with my solutions to **Advent Of Code** problems.
  2020: **14**<br>
  2019: **10**<br>
  2018: **15**<br>
- 2017: **14**<br>
+ 2017: **16**<br>
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **198**
+Total: **200**
 
 # 2024
 Completed: 28/50 (56%)
