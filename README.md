@@ -6,6 +6,21 @@
 
 Repository with my solutions to **Advent Of Code** problems.
 
+# Summary 
+
+ 2024: 27<br>
+ 2023: 16<br>
+ 2022: 17<br>
+ 2021: 12<br>
+ 2020: 14<br>
+ 2019: 10<br>
+ 2018: 15<br>
+ 2017: 14<br>
+ 2016: 29<br>
+ 2015: 43<br>
+
+Total stars: **197**
+
 # 2024
 Completed: 27/50 (54%)
 
@@ -113,7 +128,7 @@ Completed: 15/50 (30%)
 - ✅✅&emsp;Day 10: The Stars Align&emsp;[one](2018/day10_part1/day10_part1.go)&emsp;[two](2018/day10_part1/day10_part1.go)
 
 # 2017
-Completed: 7/25 (28%)
+Completed: 14/25 (28%)
 
 - ✅✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
