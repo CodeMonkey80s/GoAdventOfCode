@@ -128,7 +128,7 @@ Completed: 15/50 (30%)
 - ✅✅&emsp;Day 10: The Stars Align&emsp;[one](2018/day10_part1/day10_part1.go)&emsp;[two](2018/day10_part1/day10_part1.go)
 
 # 2017
-Completed: 14/25 (28%)
+Completed: 16/25 (32%)
 
 - ✅✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
@@ -138,6 +138,9 @@ Completed: 14/25 (28%)
 - ✅✅&emsp;Day 6: Memory Reallocation&emsp;[one](2017/day6_part1/day6_part1.go)&emsp;[two](2017/day6_part2/day6_part2.go)
 - ✅🔲&emsp;Day 7: Recursive Circus&emsp;[one](2017/day7_part1/day7_part1.go)
 - ✅✅&emsp;Day 8: I Heard You Like Registers&emsp;[one](2017/day8_part1/day8_part1.go)&emsp;[two](2017/day8_part2/day8_part2.go)
+- 🔲🔲&emsp;Day 9: Stream Processing 
+- 🔲🔲&emsp;Day 10: Knot Hash 
+- ✅✅&emsp;Day 11: Hex Ed&emsp;[one](2017/day11_part1/day11_part1.go)&emsp;[two](2017/day11_part2/day11_part2.go)
 
 # 2016
 Completed: 29/50 (58%)
