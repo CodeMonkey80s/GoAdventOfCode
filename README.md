@@ -84,7 +84,7 @@ Completed: 13/50 (26%)
 - 🔲🔲&emsp;Day 9: Encoding Error
 - 🔲🔲&emsp;Day 10: Adapter Array 
 - 🔲🔲&emsp;Day 11: Seating System 
-- ✅🔲&emsp;Day 12: Rain Risk&emsp;[one](2020/day12_part1/day12_part1.go)
+- ✅✅&emsp;Day 12: Rain Risk&emsp;[one](2020/day12_part1/day12_part1.go)&emsp;[two](2020/day12_part2/day12_part2.go)
 
 # 2019
 Completed: 10/50 (20%)
