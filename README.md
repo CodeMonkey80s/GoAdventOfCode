@@ -48,7 +48,7 @@ Completed: 29/50 (58%)
 - 🔲🔲&emsp;Day 22: Monkey Market 
 - 🔲🔲&emsp;Day 23: LAN Party 
 - 🔲🔲&emsp;Day 24: Crossed Wires 
-- 🔲🔲&emsp;Day 25: Code Chronicle&emsp;[one](2024/day25_part1/day25_part1.go)
+- ✅🔲&emsp;Day 25: Code Chronicle&emsp;[one](2024/day25_part1/day25_part1.go)
 
 # 2023
 Completed: 16/50 (32%)
