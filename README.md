@@ -8,7 +8,7 @@ Repository with my solutions to **Advent Of Code** problems.
 
 # Summary 
 
- 2024: **28**<br>
+ 2024: **29**<br>
  2023: **16**<br>
  2022: **17**<br>
  2021: **12**<br>
@@ -19,10 +19,10 @@ Repository with my solutions to **Advent Of Code** problems.
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **200**
+Total: **201**
 
 # 2024
-Completed: 28/50 (56%)
+Completed: 29/50 (58%)
 
 - ✅✅&emsp;Day 1: Historian Hysteria&emsp;[one](2024/day1_part1/day1_part1.go)&emsp;[two](2024/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Red-Nosed Reports&emsp;[one](2024/day2_part1/day2_part1.go)&emsp;[two](2024/day2_part2/day2_part2.go)
@@ -41,6 +41,14 @@ Completed: 28/50 (56%)
 - ✅🔲&emsp;Day 15: Warehouse Woes&emsp;[one](2024/day15_part1/day15_part1.go)
 - 🔲🔲&emsp;Day 16: Reindeer Maze 
 - ✅🔲&emsp;Day 17: Chronospatial Computer&emsp;[one](2024/day17_part1/day17_part1.go)
+- 🔲🔲&emsp;Day 18: RAM Run 
+- 🔲🔲&emsp;Day 19: Linen Layout 
+- 🔲🔲&emsp;Day 20: Race Condition 
+- 🔲🔲&emsp;Day 21: Keypad Conundrum 
+- 🔲🔲&emsp;Day 22: Monkey Market 
+- 🔲🔲&emsp;Day 23: LAN Party 
+- 🔲🔲&emsp;Day 24: Crossed Wires 
+- 🔲🔲&emsp;Day 25: Code Chronicle&emsp;[one](2024/day25_part1/day25_part1.go)
 
 # 2023
 Completed: 16/50 (32%)
