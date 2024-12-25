@@ -103,7 +103,6 @@ Completed: 14/50 (28%)
 - ✅✅&emsp;Day 6: Custom Customs&emsp;[one](2020/day6_part1/day6_part1.go)&emsp;[two](2020/day6_part2/day6_part2.go)
 - 🔲🔲&emsp;Day 7: Handy Haversacks 
 - 🔲🔲&emsp;Day 8: Handheld Halting 
-- 🔲🔲&emsp;Day 8: Encoding Error 
 - 🔲🔲&emsp;Day 9: Encoding Error
 - 🔲🔲&emsp;Day 10: Adapter Array 
 - 🔲🔲&emsp;Day 11: Seating System 
