@@ -12,14 +12,14 @@ Repository with my solutions to **Advent Of Code** problems.
  2023: **16**<br>
  2022: **17**<br>
  2021: **12**<br>
- 2020: **18**<br>
+ 2020: **19**<br>
  2019: **10**<br>
  2018: **15**<br>
  2017: **16**<br>
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **205**
+Total: **206**
 
 # 2024
 Completed: 29/50 (58%)
@@ -93,7 +93,7 @@ Completed: 12/50 (24%)
 - ✅✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part2/day6_part2.go)
 
 # 2020
-Completed: 18/50 (36%)
+Completed: 19/50 (38%)
 
 - ✅✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
@@ -107,6 +107,19 @@ Completed: 18/50 (36%)
 - 🔲🔲&emsp;Day 10: Adapter Array 
 - 🔲🔲&emsp;Day 11: Seating System 
 - ✅✅&emsp;Day 12: Rain Risk&emsp;[one](2020/day12_part1/day12_part1.go)&emsp;[two](2020/day12_part2/day12_part2.go)
+- 🔲🔲&emsp;Day 13: Shuttle Search 
+- 🔲🔲&emsp;Day 14: Docking Data 
+- 🔲🔲&emsp;Day 15: Rambunctious Recitation 
+- 🔲🔲&emsp;Day 16: Ticket Translation 
+- 🔲🔲&emsp;Day 17: Conway Cubes 
+- 🔲🔲&emsp;Day 18: Operation Order 
+- 🔲🔲&emsp;Day 19: Monster Messages 
+- 🔲🔲&emsp;Day 20: Jurassic Jigsaw 
+- 🔲🔲&emsp;Day 21: Allergen Assessment 
+- 🔲🔲&emsp;Day 22: Crab Combat 
+- 🔲🔲&emsp;Day 23: Crab Cups 
+- ✅🔲&emsp;Day 24: Lobby Layout&emsp;[one](2020/day24_part1/day24_part1.go)
+- 🔲🔲&emsp;Day 25: Combo Breaker 
 
 # 2019
 Completed: 10/50 (20%)
