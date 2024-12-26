@@ -12,14 +12,14 @@ Repository with my solutions to **Advent Of Code** problems.
  2023: **16**<br>
  2022: **17**<br>
  2021: **12**<br>
- 2020: **14**<br>
+ 2020: **16**<br>
  2019: **10**<br>
  2018: **15**<br>
  2017: **16**<br>
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **201**
+Total: **203**
 
 # 2024
 Completed: 29/50 (58%)
@@ -93,7 +93,7 @@ Completed: 12/50 (24%)
 - ✅✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part2/day6_part2.go)
 
 # 2020
-Completed: 15/50 (30%)
+Completed: 16/50 (32%)
 
 - ✅✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
@@ -102,7 +102,7 @@ Completed: 15/50 (30%)
 - ✅✅&emsp;Day 5: Binary Boarding&emsp;[one](2020/day5_part1/day5_part1.go)&emsp;[two](2020/day5_part2/day5_part2.go)
 - ✅✅&emsp;Day 6: Custom Customs&emsp;[one](2020/day6_part1/day6_part1.go)&emsp;[two](2020/day6_part2/day6_part2.go)
 - 🔲🔲&emsp;Day 7: Handy Haversacks 
-- ✅🔲&emsp;Day 8: Handheld Halting&emsp;[one](2020/day8_part1/day8_part1.go)
+- ✅✅&emsp;Day 8: Handheld Halting&emsp;[one](2020/day8_part1/day8_part1.go)&emsp;[one](2020/day8_part2/day8_part2.go)
 - 🔲🔲&emsp;Day 9: Encoding Error
 - 🔲🔲&emsp;Day 10: Adapter Array 
 - 🔲🔲&emsp;Day 11: Seating System 
