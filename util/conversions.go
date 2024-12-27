@@ -28,8 +28,18 @@ func ConvertBinaryStringToInt(s string) int {
 	return int(val)
 }
 
-func ConvertIntToBinaryString(n int) string {
-	return strconv.FormatInt(int64(n), 2)
+func ConvertIntToBinaryString(n int, size int) string {
+	b := strconv.FormatInt(int64(n), 2)
+	s := make([]rune, size)
+	j := 0
+	for i := 0; i < size; i++ {
+		s[i] = '0'
+		if i > size-len(b)-1 {
+			s[i] = rune(b[j])
+			j++
+		}
+	}
+	return string(s)
 }
 
 func ConvertByteToInt(s byte) int {
