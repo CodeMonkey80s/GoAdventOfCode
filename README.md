@@ -93,7 +93,7 @@ Completed: 12/50 (24%)
 - ✅✅&emsp;Day 6: Lanterfish&emsp;[one](2021/day6_part1/day6_part1.go)&emsp;[two](2021/day6_part2/day6_part2.go)
 
 # 2020
-Completed: 19/50 (38%)
+Completed: 20/50 (40%)
 
 - ✅✅&emsp;Day 1: Report Repair&emsp;[one](2020/day1_part1/day1_part1.go)&emsp;[two](2020/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Password Philosophy&emsp;[one](2020/day2_part1/day2_part1.go)&emsp;[two](2020/day2_part2/day2_part2.go)
