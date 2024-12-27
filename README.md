@@ -19,7 +19,7 @@ Repository with my solutions to **Advent Of Code** problems.
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **206**
+Total: **207**
 
 # 2024
 Completed: 29/50 (58%)
