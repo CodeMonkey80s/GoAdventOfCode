@@ -108,7 +108,7 @@ Completed: 24/50 (48%)
 - ✅✅&emsp;Day 11: Seating System&emsp;[one](2020/day11_part1/day11_part1.go)&emsp;[two](2020/day11_part2/day11_part2.go)
 - ✅✅&emsp;Day 12: Rain Risk&emsp;[one](2020/day12_part1/day12_part1.go)&emsp;[two](2020/day12_part2/day12_part2.go)
 - 🔲🔲&emsp;Day 13: Shuttle Search 
-- ✅✅🔲&emsp;Day 14: Docking Data &emsp;[one](2020/day14_part1/day14_part1.go)&emsp;[one](2020/day14_part2/day14_part2.go)
+- ✅✅&emsp;Day 14: Docking Data &emsp;[one](2020/day14_part1/day14_part1.go)&emsp;[one](2020/day14_part2/day14_part2.go)
 - 🔲🔲&emsp;Day 15: Rambunctious Recitation 
 - 🔲🔲&emsp;Day 16: Ticket Translation 
 - 🔲🔲&emsp;Day 17: Conway Cubes 
