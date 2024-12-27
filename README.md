@@ -12,7 +12,7 @@ Repository with my solutions to **Advent Of Code** problems.
  2023: **16**<br>
  2022: **17**<br>
  2021: **12**<br>
- 2020: **19**<br>
+ 2020: **20**<br>
  2019: **10**<br>
  2018: **15**<br>
  2017: **16**<br>
@@ -118,7 +118,7 @@ Completed: 19/50 (38%)
 - 🔲🔲&emsp;Day 21: Allergen Assessment 
 - 🔲🔲&emsp;Day 22: Crab Combat 
 - 🔲🔲&emsp;Day 23: Crab Cups 
-- ✅🔲&emsp;Day 24: Lobby Layout&emsp;[one](2020/day24_part1/day24_part1.go)
+- ✅✅&emsp;Day 24: Lobby Layout&emsp;[one](2020/day24_part1/day24_part1.go)[one](2020/day24_part2/day24_part2.go)
 - 🔲🔲&emsp;Day 25: Combo Breaker 
 
 # 2019
