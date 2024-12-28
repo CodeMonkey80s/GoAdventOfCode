@@ -15,11 +15,11 @@ Repository with my solutions to **Advent Of Code** problems.
  2020: **24**<br>
  2019: **10**<br>
  2018: **15**<br>
- 2017: **16**<br>
+ 2017: **17**<br>
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **213**
+Total: **214**
 
 # 2024
 Completed: 31/50 (62%)
@@ -148,7 +148,7 @@ Completed: 15/50 (30%)
 - ✅✅&emsp;Day 10: The Stars Align&emsp;[one](2018/day10_part1/day10_part1.go)&emsp;[two](2018/day10_part1/day10_part1.go)
 
 # 2017
-Completed: 16/25 (32%)
+Completed: 17/25 (34%)
 
 - ✅✅&emsp;Day 1: Inverse Captcha&emsp;[one](2017/day1_part1/day1_part1.go)&emsp;[two](2017/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Corruption Checksum&emsp;[one](2017/day2_part1/day2_part1.go)&emsp;[two](2017/day2_part2/day2_part2.go)
@@ -161,6 +161,8 @@ Completed: 16/25 (32%)
 - 🔲🔲&emsp;Day 9: Stream Processing 
 - 🔲🔲&emsp;Day 10: Knot Hash 
 - ✅✅&emsp;Day 11: Hex Ed&emsp;[one](2017/day11_part1/day11_part1.go)&emsp;[two](2017/day11_part2/day11_part2.go)
+- 🔲🔲&emsp;Day 12: Digital Plumber
+- ✅🔲&emsp;Day 13: Packet Scanners&emsp;[one](2017/day13_part1/day13_part1.go)
 
 # 2016
 Completed: 29/50 (58%)
