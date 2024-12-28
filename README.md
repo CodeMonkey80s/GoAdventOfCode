@@ -8,7 +8,7 @@ Repository with my solutions to **Advent Of Code** problems.
 
 # Summary 
 
- 2024: **30**<br>
+ 2024: **31**<br>
  2023: **16**<br>
  2022: **17**<br>
  2021: **12**<br>
@@ -19,10 +19,10 @@ Repository with my solutions to **Advent Of Code** problems.
  2016: **29**<br>
  2015: **43**<br>
 
-Total: **212**
+Total: **213**
 
 # 2024
-Completed: 30/50 (60%)
+Completed: 31/50 (62%)
 
 - ✅✅&emsp;Day 1: Historian Hysteria&emsp;[one](2024/day1_part1/day1_part1.go)&emsp;[two](2024/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Red-Nosed Reports&emsp;[one](2024/day2_part1/day2_part1.go)&emsp;[two](2024/day2_part2/day2_part2.go)
@@ -36,7 +36,7 @@ Completed: 30/50 (60%)
 - ✅✅&emsp;Day 10: Hoof It&emsp;[one](2024/day10_part1/day10_part1.go)&emsp;[two](2024/day10_part2/day10_part2.go)
 - ✅✅&emsp;Day 11: Plutonian Pebbles&emsp;[one](2024/day11_part1/day11_part1.go)&emsp;[two](2024/day11_part2/day11_part2.go)
 - ✅✅&emsp;Day 12: Garden Groups&emsp;[one](2024/day12_part1/day12_part1.go)&emsp;[two](2024/day12_part2/day12_part2.go)
-- ✅🔲&emsp;Day 13: Claw Contraption&emsp;[one](2024/day13_part1/day13_part1.go)
+- ✅✅&emsp;Day 13: Claw Contraption&emsp;[one](2024/day13_part1/day13_part1.go)&emsp;[one](2024/day13_part2/day13_part2.go)
 - ✅✅&emsp;Day 14: Restroom Redoubt&emsp;[one](2024/day14_part1/day14_part1.go)&emsp;[two](2024/day14_part1/day14_part1.go)
 - ✅🔲&emsp;Day 15: Warehouse Woes&emsp;[one](2024/day15_part1/day15_part1.go)
 - 🔲🔲&emsp;Day 16: Reindeer Maze 
