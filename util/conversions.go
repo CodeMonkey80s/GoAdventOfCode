@@ -2,6 +2,7 @@ package util
 
 import (
 	"strconv"
+	"strings"
 )
 
 func ConvertStringToInt(s string) int {
@@ -63,8 +64,10 @@ func ConvertIntToString(n int) string {
 }
 
 func IsNumber(s string) bool {
+	s = strings.TrimPrefix(s, "-")
+	s = strings.TrimPrefix(s, "+")
 	for _, char := range s {
-		if '0' >= char || char >= '9' {
+		if char <= '0' || '9' <= char {
 			return false
 		}
 	}

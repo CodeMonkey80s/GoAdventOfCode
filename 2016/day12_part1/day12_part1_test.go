@@ -9,11 +9,18 @@ import (
 
 func Test_getAnswer(t *testing.T) {
 	var testCases = []struct {
-		Input  []string
-		Output int
+		InputRegisters      map[string]int
+		InputInstructions   []string
+		OutputRegisterValue int
 	}{
 		{
-			Input: []string{
+			InputRegisters: map[string]int{
+				"a": 0,
+				"b": 0,
+				"c": 0,
+				"d": 0,
+			},
+			InputInstructions: []string{
 				"cpy 41 a",
 				"inc a",
 				"inc a",
@@ -21,26 +28,33 @@ func Test_getAnswer(t *testing.T) {
 				"jnz a 2",
 				"dec a",
 			},
-			Output: 42,
+			OutputRegisterValue: 42,
 		},
 	}
 	lines := util.LoadInputFile("../inputs/day12_input.txt")
 	testCase := []struct {
-		Input  []string
-		Output int
+		InputRegisters      map[string]int
+		InputInstructions   []string
+		OutputRegisterValue int
 	}{
 		{
-			Input:  lines,
-			Output: 317993,
+			InputRegisters: map[string]int{
+				"a": 0,
+				"b": 0,
+				"c": 0,
+				"d": 0,
+			},
+			InputInstructions:   lines,
+			OutputRegisterValue: 317993,
 		},
 	}
 	testCases = append(testCases, testCase...)
 	for _, tc := range testCases {
-		label := fmt.Sprintf("%v_%v\n", "Puzzle Input", tc.Output)
+		label := fmt.Sprintf("%v_%v\n", "Puzzle InputInstructions", tc.InputInstructions)
 		t.Run(label, func(t *testing.T) {
-			output := getAnswer(tc.Input)
-			if output != tc.Output {
-				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
+			output := getAnswer(tc.InputInstructions, tc.InputRegisters)
+			if output != tc.OutputRegisterValue {
+				t.Errorf("Expected output to be %v but we got %v", tc.OutputRegisterValue, output)
 			}
 		})
 	}
