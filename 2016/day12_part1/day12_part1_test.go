@@ -9,11 +9,13 @@ import (
 
 func Test_getAnswer(t *testing.T) {
 	var testCases = []struct {
+		Label               string
 		InputRegisters      map[string]int
 		InputInstructions   []string
 		OutputRegisterValue int
 	}{
 		{
+			Label: "Instructions-sample",
 			InputRegisters: map[string]int{
 				"a": 0,
 				"b": 0,
@@ -33,11 +35,13 @@ func Test_getAnswer(t *testing.T) {
 	}
 	lines := util.LoadInputFile("../inputs/day12_input.txt")
 	testCase := []struct {
+		Label               string
 		InputRegisters      map[string]int
 		InputInstructions   []string
 		OutputRegisterValue int
 	}{
 		{
+			Label: "Instructions-input",
 			InputRegisters: map[string]int{
 				"a": 0,
 				"b": 0,
@@ -50,7 +54,7 @@ func Test_getAnswer(t *testing.T) {
 	}
 	testCases = append(testCases, testCase...)
 	for _, tc := range testCases {
-		label := fmt.Sprintf("%v_%v\n", "Puzzle InputInstructions", tc.InputInstructions)
+		label := fmt.Sprintf("%v_%v\n", tc.Label, tc.OutputRegisterValue)
 		t.Run(label, func(t *testing.T) {
 			output := getAnswer(tc.InputInstructions, tc.InputRegisters)
 			if output != tc.OutputRegisterValue {
