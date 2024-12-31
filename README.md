@@ -16,10 +16,10 @@ Repository with my solutions to **Advent Of Code** problems.
  2019: **10**<br>
  2018: **15**<br>
  2017: **17**<br>
- 2016: **31**<br>
+ 2016: **32**<br>
  2015: **43**<br>
 
-Total: **216**
+Total: **217**
 
 # 2024
 Completed: 31/50 (62%)
@@ -165,7 +165,7 @@ Completed: 17/25 (34%)
 - ✅🔲&emsp;Day 13: Packet Scanners&emsp;[one](2017/day13_part1/day13_part1.go)
 
 # 2016
-Completed: 31/50 (62%)
+Completed: 32/50 (64%)
 
 - ✅✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
@@ -185,7 +185,7 @@ Completed: 31/50 (62%)
 - 🔲🔲&emsp;Day 16: Dragon Checksum 
 - 🔲🔲&emsp;Day 17: Two Steps Forward 
 - ✅✅&emsp;Day 18: Like a Rogue&emsp;[one](2016/day18_part1/day18_part1.go)&emsp;[two](2016/day18_part2/day18_part2.go)
-- 🔲🔲&emsp;Day 19: An Elephant Named Joseph 
+- ✅🔲&emsp;Day 19: An Elephant Named Joseph&emsp;[one](2016/day19_part1/day19_part1.go)
 - 🔲🔲&emsp;Day 20: Firewall Rules 
 - 🔲🔲&emsp;Day 21: Scrambled Letters and hash 
 - ✅🔲&emsp;Day 22: Grid Computing&emsp;[one](2016/day22_part1/day22_part1.go)
