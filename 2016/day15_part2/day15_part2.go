@@ -1,4 +1,4 @@
-package day15_part1
+package day15_part2
 
 import (
 	"regexp"
@@ -14,7 +14,6 @@ type disc struct {
 func getAnswer(input []string) int {
 
 	discs := loadDiscs(input)
-
 	for turn := 0; ; turn++ {
 
 		isDiscPassed := true

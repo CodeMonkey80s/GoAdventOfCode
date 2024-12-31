@@ -16,10 +16,10 @@ Repository with my solutions to **Advent Of Code** problems.
  2019: **10**<br>
  2018: **15**<br>
  2017: **17**<br>
- 2016: **30**<br>
+ 2016: **31**<br>
  2015: **43**<br>
 
-Total: **215**
+Total: **216**
 
 # 2024
 Completed: 31/50 (62%)
@@ -165,7 +165,7 @@ Completed: 17/25 (34%)
 - ✅🔲&emsp;Day 13: Packet Scanners&emsp;[one](2017/day13_part1/day13_part1.go)
 
 # 2016
-Completed: 30/50 (60%)
+Completed: 31/50 (62%)
 
 - ✅✅&emsp;Day 1: No Time for a Taxicab&emsp;[one](2016/day1_part1/day1_part1.go)&emsp;[two](2016/day1_part2/day1_part2.go)
 - ✅✅&emsp;Day 2: Bathroom Security&emsp;[one](2016/day2_part1/day2_part1.go)&emsp;[two](2016/day2_part2/day2_part2.go)
@@ -181,7 +181,7 @@ Completed: 30/50 (60%)
 - ✅✅&emsp;Day 12: Leonardo's Monorail&emsp;[one](2016/day12_part1/day12_part1.go)&emsp;[two](2016/day12_part2/day12_part2.go)
 - ✅✅&emsp;Day 13: A Maze of Twisty Little Cubicles&emsp;[one](2016/day13_part1/day13_part1.go)&emsp;[two](2016/day13_part2/day13_part2.go)
 - ✅✅&emsp;Day 14: One-Time Pad&emsp;[one](2016/day14_part1/day14_part1.go)&emsp;[two](2016/day14_part2/day14_part2.go)
-- ✅🔲&emsp;Day 15: Timing is Everything&emsp;[one](2016/day15_part1/day15_part1.go)
+- ✅✅&emsp;Day 15: Timing is Everything&emsp;[one](2016/day15_part1/day15_part1.go)&emsp;[one](2016/day15_part2/day15_part2.go)
 - 🔲🔲&emsp;Day 16: Dragon Checksum 
 - 🔲🔲&emsp;Day 17: Two Steps Forward 
 - ✅✅&emsp;Day 18: Like a Rogue&emsp;[one](2016/day18_part1/day18_part1.go)&emsp;[two](2016/day18_part2/day18_part2.go)
