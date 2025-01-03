@@ -1,4 +1,4 @@
-package day1_part2
+package day1
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"GoAdventOfCode/util"
 )
 
-var testCases = []struct {
+var testCasesForPart1 = []struct {
 	Input  []string
 	Output int
 }{
@@ -20,11 +20,11 @@ var testCases = []struct {
 			"3   9",
 			"3   3",
 		},
-		Output: 31,
+		Output: 11,
 	},
 }
 
-func Test_getAnswer(t *testing.T) {
+func Test_getAnswerForPart1(t *testing.T) {
 	lines := util.LoadInputFile("../inputs/day1_input.txt")
 	testCase := []struct {
 		Input  []string
@@ -32,14 +32,14 @@ func Test_getAnswer(t *testing.T) {
 	}{
 		{
 			Input:  lines,
-			Output: 24941624,
+			Output: 2086478,
 		},
 	}
-	testCases = append(testCases, testCase...)
-	for _, tc := range testCases {
+	testCasesForPart1 = append(testCasesForPart1, testCase...)
+	for _, tc := range testCasesForPart1 {
 		label := fmt.Sprintf("%v_%v\n", "Puzzle Input", tc.Output)
 		t.Run(label, func(t *testing.T) {
-			output := getAnswer(tc.Input)
+			output := getAnswerForPart1(tc.Input)
 			if output != tc.Output {
 				t.Errorf("Expected output to be %v but we got %v", tc.Output, output)
 			}

@@ -1,4 +1,4 @@
-package day1_part1
+package day1
 
 import (
 	"math"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func getAnswer(lines []string) int {
+func getAnswerForPart1(lines []string) int {
 
 	numbers1 := make([]int, 0, len(lines))
 	numbers2 := make([]int, 0, len(lines))
