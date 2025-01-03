@@ -36,7 +36,7 @@ func getAnswer(lines []string, flyTime int) int {
 	distance := 0
 	for _, deer := range deers {
 		distance = max(distance, deer.Travelled)
-		//fmt.Printf("Deer: %q = %d, %s\n", deer.Name, deer.Travelled, deer.State)
+		// fmt.Printf("Deer: %q = %d, %s\n", deer.Name, deer.Travelled, deer.State)
 	}
 
 	return distance
@@ -61,7 +61,7 @@ func fly(deers []*Deer, flyTime int) {
 		for _, deer := range deers {
 			switch {
 			case deer.State == stateFlying:
-				//fmt.Printf("t: %d, deer: %s = %s, %+v\n", i, deer.Name, deer.State, deer)
+				// fmt.Printf("t: %d, deer: %s = %s, %+v\n", i, deer.Name, deer.State, deer)
 				deer.Travelled += deer.Speed
 				deer.TimeAtState++
 				if deer.TimeAtState >= deer.TimeAtMove {
