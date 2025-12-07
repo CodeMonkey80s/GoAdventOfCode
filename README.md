@@ -9,7 +9,7 @@ Repository with my solutions to [Advent Of Code](https://adventofcode.com) puzzl
 ### Progress
 
 ``` 
-[2025] 12* / 24*
+[2025] 13* / 24*
 [2024] 31* / 50*
 [2023] 16* / 50*
 [2022] 17* / 50*
@@ -21,7 +21,7 @@ Repository with my solutions to [Advent Of Code](https://adventofcode.com) puzzl
 [2016] 32* / 50*
 [2015] 43* / 50*
 
-Total stars: 229*
+Total stars: 230*
 ```
 
 ### Static Analysis
