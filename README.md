@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="gopher-advent.png" width="200">
+</p>
+
 ### Go Advent Of Code Solutions
 
 Repository with my solutions to [Advent Of Code](https://adventofcode.com) puzzles.
