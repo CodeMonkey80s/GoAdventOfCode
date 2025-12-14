@@ -13,6 +13,22 @@ func ConvertStringToInt(s string) int {
 	return val
 }
 
+func ConvertStringToUInt64(s string) uint64 {
+	val, err := strconv.ParseUint(s, 10, 64)
+	if err != nil {
+		return 0
+	}
+	return val
+}
+
+func ConvertStringToInt64(s string) int64 {
+	val, err := strconv.ParseInt(s, 10, 64)
+	if err != nil {
+		return 0
+	}
+	return val
+}
+
 func ConvertStringToUint16(s string) uint16 {
 	val, err := strconv.ParseInt(s, 10, 16)
 	if err != nil {
